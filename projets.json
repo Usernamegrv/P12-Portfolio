@@ -1,0 +1,75 @@
+[
+    {
+        "title": "Riding Cities",
+        "url": "https://usernamegrv.github.io/P2-RidingCities/",
+        "image":"P12-portfolio/public/images/RidingCities.JPG",
+        "date": "2023-07-20",
+        "techno": "HTML, CSS",
+        "description": "Premiers pas sur le langage HTML"
+    },
+    {
+        "title": "Booki",
+        "url": "https://usernamegrv.github.io/P3-Booki/",
+        "image":"P12-portfolio/public/images/Booki.webp",
+        "date": "2023-07-31",
+        "techno": "HTML, CSS",
+        "description": "Créer la page d'accueil d'une agence de voyage avec HTML et CSS"
+    },
+    {
+        "title": "Oh my Food",
+        "url": "https://usernamegrv.github.io/P4-Ohmyfood/",
+        "image":"P12-portfolio/public/images/ohmyfood.JPG",
+        "date": "2023-09-05",
+        "techno": "HTML, CSS, SCSS",
+        "description": "Améliorer l'interface d'un site mobile avec des animations CSS"
+    },
+    {
+        "title": "Print it",
+        "url": "https://usernamegrv.github.io/P5-Print-it/",
+        "image":"P12-portfolio/public/images/printit.JPG",
+        "date": "2023-10-03",
+        "techno": "HTML, CSS, JAVASCRIPT",
+        "description": "Premiers pas sur le langage Javascript"
+    },
+    {
+        "title": "Architecte",
+        "url": "https://github.com/Usernamegrv/P6-SophieBluel-architecte",
+        "image":"P12-portfolio/public/images/SophieBluel.JPG",
+        "date": "2023-10-12",
+        "techno": "HTML, CSS, JAVASCRIPT",
+        "description": "Créer une page web dynamique avec Javascript"
+    },
+    {
+        "title": "Kasa",
+        "url": "https://github.com/Usernamegrv/P8-Kasa",
+        "image":"P12-portfolio/public/images/Kasa2.JPG",
+        "date": "2023-12-07",
+        "techno": "SCSS, REACT",
+        "description": "Créer une application web de location immobilière avec React"
+    },
+    {
+        "title": "Photographe",
+        "url": "https://usernamegrv.github.io/P9-NinaCarducci/",
+        "image":"P12-portfolio/public/images/NinaCarducci.JPG",
+        "date": "2024-01-04",
+        "techno": "HTML, CSS, JAVASCRIPT",
+        "description": "Optimiser le référencement d'un site de photographe"
+    },
+    {
+        "title": "724 Events",
+        "url": "https://github.com/Usernamegrv/P10-Debuggez-le-site-d-une-agence-devenementiel",
+        "image":"P12-portfolio/public/images/724events.JPG",
+        "date": "2024-01-23",
+        "techno": "HTML, CSS, JAVASCRIPT",
+        "description": "Débugguer le site d'une agence d'événementiel à l'aide de la console, des test et React Developer Tools"
+    },
+    {
+        "title": "Argent Bank",
+        "url": "https://github.com/Usernamegrv/ArgentBank-website-main",
+        "image":"P12-portfolio/public/images/ArgentBank.JPG",
+        "date": "2024-02-20",
+        "techno": "REACT, REDUX, CSS, JAVASCRIPT, MONGODB",
+        "description": "Implémenter le front-end d'une application bancaire avec React et Redux"
+    }
+
+]
