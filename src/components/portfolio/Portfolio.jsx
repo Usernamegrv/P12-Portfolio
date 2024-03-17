@@ -11,7 +11,7 @@ function Portfolio() {
         setProjects(data);
       })
       .catch((error) => console.error("Error fetching projects:", error));
-  });
+  }, []);
   return (
     <>
       <h2 id="portfolio-title">Projets</h2>
