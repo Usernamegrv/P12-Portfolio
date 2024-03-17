@@ -21,7 +21,7 @@ function Footer() {
               target="_blank"
             >
               <img
-                src="/github-mark.png"
+                src="./github-mark.png"
                 id="github-icone"
                 alt="icone github"
               />
@@ -33,7 +33,7 @@ function Footer() {
               rel="noopener"
               target="_blank"
             >
-              <img src="/linkedin.png" alt="Logo Linkedin" />
+              <img src="./linkedin.png" alt="Logo Linkedin" />
             </a>
           </li>
         </ul>

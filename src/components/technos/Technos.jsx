@@ -5,7 +5,7 @@ export default function Technos() {
   const [technos, setTechnos] = useState([]);
 
   useEffect(() => {
-    fetch("technos.json")
+    fetch("/technos.json")
       .then((response) => response.json())
       .then((data) => {
         setTechnos(data);

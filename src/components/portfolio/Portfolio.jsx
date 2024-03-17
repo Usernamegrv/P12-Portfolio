@@ -5,30 +5,13 @@ function Portfolio() {
   const [projects, setProjects] = useState([]);
 
   useEffect(() => {
-    // const handleScroll = () => {
-    //   let portfolio = document.getElementById("portfolio-container");
-    //   let scrollValue =
-    //     (window.scrollY + window.innerHeight) / document.body.offsetHeight;
-
-    //   if (scrollValue > 0.1) {
-    //     portfolio.style.opacity = 1;
-    //     portfolio.style.transform = "none";
-    //   }
-    // };
-
-    // window.addEventListener("scroll", handleScroll);
-
-    fetch("projets.json")
+    fetch("/projets.json")
       .then((response) => response.json())
       .then((data) => {
         setProjects(data);
       })
       .catch((error) => console.error("Error fetching projects:", error));
-
-    return () => {
-      //   window.removeEventListener("scroll", handleScroll);
-    };
-  }, []);
+  });
   return (
     <>
       <h2 id="portfolio-title">Projets</h2>
