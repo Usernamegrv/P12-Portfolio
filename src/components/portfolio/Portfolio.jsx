@@ -1,17 +1,12 @@
 import { useEffect, useState } from "react";
 import "./Portfolio.scss";
-
+import projectsData from "../../projets.json";
 function Portfolio() {
   const [projects, setProjects] = useState([]);
 
   useEffect(() => {
-    fetch("../../projets.json")
-      .then((response) => response.json())
-      .then((data) => {
-        setProjects(data);
-      })
-      .catch((error) => console.error("Error fetching projects:", error));
-  });
+    setProjects(projectsData);
+  }, []);
   return (
     <>
       <h2 id="portfolio-title">Projets</h2>
