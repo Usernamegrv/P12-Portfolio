@@ -5,7 +5,7 @@ function Portfolio() {
   const [projects, setProjects] = useState([]);
 
   useEffect(() => {
-    fetch("/projets.json")
+    fetch("../../projets.json")
       .then((response) => response.json())
       .then((data) => {
         setProjects(data);
