@@ -20,7 +20,11 @@ function Header() {
               rel="noopener"
               target="_blank"
             >
-              <img src="/github-mark.png" id="github-icone" alt="Logo github" />
+              <img
+                src="./github-mark.png"
+                id="github-icone"
+                alt="Logo github"
+              />
             </a>
           </li>
           <li>
@@ -29,7 +33,7 @@ function Header() {
               rel="noopener"
               target="_blank"
             >
-              <img src="/linkedin.png" alt="Logo Linkedin" />
+              <img src="./linkedin.png" alt="Logo Linkedin" />
             </a>
           </li>
         </ul>

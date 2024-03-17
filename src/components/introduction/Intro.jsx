@@ -6,7 +6,7 @@ function Intro() {
       <div className="container-introduction">
         <figure>
           <img
-            src="./public/images/IMG_6048888.jpg"
+            src="./images/IMG_6048888.jpg"
             alt="Photo morgane"
             id="photo-intro"
           />
