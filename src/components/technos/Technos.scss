@@ -1,0 +1,46 @@
+$color_1: white;
+
+#technos {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 50px 0 90px 0;
+    h2 {
+        margin: 0 0 50px 0;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        color: $color_1;
+    }
+
+    #images-tech {
+        display: flex;
+        align-items: baseline;
+        width: 100%;
+        justify-content: center;
+
+        figure {
+            color: $color_1;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            margin: 0;
+            padding: 0;
+            width: 10%;
+
+            #logo-javascript {
+                width: 110px;
+            }
+            #logo-css {
+                width: 58px;
+            }
+            #logo-react {
+                width: 68px;
+            }
+            #logo-sass {
+                width: 61px;
+                margin: 0 20px 0 20px;
+            }
+        }
+    }
+}

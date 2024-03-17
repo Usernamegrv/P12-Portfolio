@@ -1,0 +1,41 @@
+#technos {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 50px 0 90px 0;
+}
+#technos h2 {
+  margin: 0 0 50px 0;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  color: white;
+}
+#technos #images-tech {
+  display: flex;
+  align-items: baseline;
+  width: 100%;
+  justify-content: center;
+}
+#technos #images-tech figure {
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0;
+  padding: 0;
+  width: 10%;
+}
+#technos #images-tech figure #logo-javascript {
+  width: 110px;
+}
+#technos #images-tech figure #logo-css {
+  width: 58px;
+}
+#technos #images-tech figure #logo-react {
+  width: 68px;
+}
+#technos #images-tech figure #logo-sass {
+  width: 61px;
+  margin: 0 20px 0 20px;
+}/*# sourceMappingURL=Technos.css.map */

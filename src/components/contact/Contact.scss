@@ -1,0 +1,24 @@
+$color_1: rgba(24 28 60);
+
+#contact {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 100px;
+    a {
+        text-decoration: none;
+        color: $color_1;
+        font-weight: 600;
+        background: linear-gradient(#bdc4f8, #ffff);
+        border-radius: 20px;
+        height: 40px;
+        width: 20%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        transition: 1s ease-in-out;
+        &:hover {
+            background: linear-gradient(#ffff, #bdc4f8);
+            transition: 1s ease-in-out;
+        }
+    }
+}

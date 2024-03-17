@@ -1,0 +1,18 @@
+[
+    {
+        "techno":"CSS",
+        "image":"./public/CSS3_logo.svg.png"
+    },
+    {
+        "techno":"SASS",
+        "image":"./public/seal-color.png"
+    },
+    {
+        "techno":"JAVASCRIPT",
+        "image":"./public/javascript-logo-transparent-logo-javascript-images-3.png"
+    },
+    {
+        "techno":"REACT",
+        "image":"./public/React-icon.svg.png"
+    }
+]

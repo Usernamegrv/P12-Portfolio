@@ -1,0 +1,64 @@
+#introduction {
+  display: flex;
+  justify-content: center;
+  margin: 80px 0 0 0;
+}
+#introduction .container-introduction {
+  width: 89%;
+  display: flex;
+  align-items: center;
+  margin: 70px 0 90px 0;
+}
+#introduction .container-introduction figure {
+  position: relative;
+  left: 60px;
+  border-radius: 44px 113px 68px 121px;
+  padding: 8px;
+  background: #36394f;
+  border-right: rgba(255, 255, 255, 0.0509803922) solid 1px;
+}
+#introduction .container-introduction figure img {
+  display: block;
+  margin: auto;
+  width: 384px;
+  border-radius: 65px 41px 68px 38px;
+}
+#introduction article {
+  flex: 1;
+  padding: 50px;
+  border-radius: 54px;
+  background: #13162c;
+}
+#introduction article h2 {
+  margin-bottom: 1em;
+  font-family: "Syne";
+  font-weight: 700;
+  font-size: 30px;
+  color: white;
+}
+#introduction article p {
+  margin-bottom: 0.5em;
+  margin-right: 3.5em;
+  color: white;
+  text-align: justify;
+}
+@media screen and (max-width: 1024px) {
+  #introduction .container-introduction {
+    flex-direction: column;
+  }
+  #introduction .container-introduction figure {
+    left: 0;
+    top: 42px;
+  }
+  #introduction .container-introduction figure img {
+    margin-bottom: 30px;
+  }
+  #introduction .container-introduction article {
+    width: 80%;
+  }
+  #introduction .container-introduction article h2 {
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+  }
+}/*# sourceMappingURL=Intro.css.map */
