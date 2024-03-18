@@ -1,43 +1,36 @@
 $color_1: #fff;
 $color_2: #808080;
+$color_3: rgb(15, 18, 37);
 $font-family_1: "Open Sans";
-$background-color_1: #fff;
+$background-color_1: #ffffff;
 $background-color_2: rgb(36 44 70 / 40%);
 
 #portfolio-title {
     display: flex;
-    // width: 90%;
     justify-content: center;
-    // margin-top: 110px;
     margin: 30px;
     color: $color_1;
     font-size: 20px;
 }
 #portfolio {
-    /* border: red solid 3px; */
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
-    background: $background-color_1;
     gap: 45px;
     width: 100%;
-    // border-radius: 0 30px 30px 0;
     padding: 50px 0 50px 0;
     margin-bottom: 100px;
-    // opacity: 0;
-    // transform: translateX(-300px);
-    // transition: 0.6s ease-in;
 
     #portfolio-container {
         display: flex;
         flex-direction: row;
         flex-wrap: wrap;
         justify-content: center;
-        // width: 95%;
         gap: 25px;
-        padding: 10px;
+        padding: 50px;
+        background: $background-color_1;
 
         .row {
             width: 280px;
@@ -76,6 +69,7 @@ $background-color_2: rgb(36 44 70 / 40%);
             }
             .wrapper {
                 background-color: $background-color_1;
+                color: $color_3;
                 min-height: 440px;
                 max-width: 300px;
                 border-radius: 10px;

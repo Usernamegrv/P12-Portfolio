@@ -5,18 +5,19 @@
 }
 #contact a {
   text-decoration: none;
+  padding: 5px;
   color: rgb(24, 28, 60);
   font-weight: 600;
-  background: linear-gradient(#bdc4f8, white);
   border-radius: 20px;
   height: 40px;
   width: 20%;
   display: flex;
   align-items: center;
   justify-content: center;
-  transition: 1s ease-in-out;
+  background: linear-gradient(white, white, #959598);
+  transition: cubic-bezier(0.075, 0.82, 0.165, 1) 0.3s ease-in-out;
 }
 #contact a:hover {
-  background: linear-gradient(white, #bdc4f8);
-  transition: 1s ease-in-out;
+  background: linear-gradient(#959598, white, white);
+  transition: cubic-bezier(0.075, 0.82, 0.165, 1) 0.3s ease-in-out;
 }/*# sourceMappingURL=Contact.css.map */

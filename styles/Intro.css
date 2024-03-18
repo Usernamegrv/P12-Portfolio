@@ -27,7 +27,7 @@
   flex: 1;
   padding: 50px;
   border-radius: 54px;
-  background: #13162c;
+  background: rgba(18, 20, 41, 0.9137254902);
 }
 #introduction article h2 {
   margin-bottom: 1em;
