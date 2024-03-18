@@ -1,3 +1,5 @@
+$color_1: #1f1f1f;
+
 .header {
     display: flex;
     justify-content: space-between;
@@ -11,7 +13,7 @@
         font-family: "Syne";
         font-size: 22px;
         font-weight: 800;
-        color: rgba(24 28 60);
+        color: $color_1;
 
         span {
             font-family: "Work Sans";
@@ -40,7 +42,7 @@
         }
         a {
             text-decoration: none;
-            color: rgba(22 26 60);
+            color: $color_1;
             cursor: pointer;
         }
         img {

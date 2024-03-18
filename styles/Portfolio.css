@@ -64,7 +64,7 @@
 }
 #portfolio #portfolio-container .card .wrapper {
   background-color: #ffffff;
-  color: rgb(15, 18, 37);
+  color: #1f1f1f;
   min-height: 440px;
   max-width: 300px;
   border-radius: 10px;
@@ -101,7 +101,7 @@
   position: absolute;
   top: 0;
   left: 0;
-  background-color: rgba(36, 44, 70, 0.4);
+  background-color: rgba(54, 56, 65, 0.4);
   color: #fff;
   padding: 0.8em;
 }
