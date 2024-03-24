@@ -1,12 +1,26 @@
 import Intro from "../../components/introduction/Intro.jsx";
 import Technos from "../../components/technos/Technos.jsx";
+import { useState, useEffect } from "react";
+import "./Apropos.scss";
 
 function Apropos() {
+  const [isLoading, setIsLoading] = useState(true);
+
+  useEffect(() => {
+    setTimeout(() => {
+      setIsLoading(false);
+    }, 2000);
+  }, []);
   return (
     <div>
-      <Intro />
-      <h2>SKILLS</h2>
-      <Technos />
+      {isLoading && <div className="donut"></div>}
+      {!isLoading && (
+        <>
+          <Intro />
+          <h2>SKILLS</h2>
+          <Technos />
+        </>
+      )}
     </div>
   );
 }

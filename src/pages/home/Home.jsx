@@ -1,12 +1,25 @@
 import "./Home.scss";
+import { useEffect, useState } from "react";
 
 function Home() {
+  const [isLoading, setIsLoading] = useState(true);
+
+  useEffect(() => {
+    setTimeout(() => {
+      setIsLoading(false);
+    }, 2000);
+  }, []);
   return (
-    <div className="home">
-      <h1>
-        Morgane Gervois <span>Développeuse Web & Mobile</span>
-      </h1>
-    </div>
+    <section className="home">
+      {isLoading && <div className="donut"></div>}
+      {!isLoading && (
+        <>
+          <h1>
+            Morgane Gervois <span>Développeuse Web & Mobile</span>
+          </h1>
+        </>
+      )}
+    </section>
   );
 }
 

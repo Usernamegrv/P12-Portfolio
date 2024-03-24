@@ -1,23 +1,27 @@
 import "./Header.scss";
-import { Link } from "react-router-dom";
+import { Link, useLocation } from "react-router-dom";
 function Header() {
+  const location = useLocation();
+  const isHomePage = location.pathname === "/";
   return (
     <header className="header">
       <div className="mg">
-        <h1>
-          Morgane Gervois <br></br> <span>Développeuse Web & Mobile</span>
-        </h1>
+        {!isHomePage && (
+          <h1>
+            Morgane Gervois <br></br> <span>Développeuse Web & Mobile</span>
+          </h1>
+        )}
       </div>
       <nav>
         <ul>
+          <li>
+            <Link to="/">home</Link>
+          </li>
           <li>
             <Link to="/about">à propos</Link>
           </li>
           <li>
             <Link to="/projects">projets</Link>
-          </li>
-          <li>
-            <Link to="/">home</Link>
           </li>
           <li>
             <a href="mailto:morganegrvcontact@gmail.com">contact</a>

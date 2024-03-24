@@ -4,23 +4,27 @@ $color_3: #1f1f1f;
 $font-family_1: "Open Sans";
 $background-color_1: #ffffff;
 $background-color_2: rgba(54, 56, 65, 0.4);
+$charade: #282a37;
 
-#portfolio-title {
-    display: flex;
-    justify-content: space-around;
-    color: #fff;
-    font-size: 15px;
-    width: 90px;
-    height: 45px;
-    background: white;
-    margin: 0;
-    flex-direction: row;
-    align-items: center;
-    border-radius: 50px 50px 0 0;
-    color: black;
-    position: relative;
-    top: 50%;
+.donut {
+    position: fixed;
     left: 50%;
+    top: 40%;
+    width: 2rem;
+    height: 2rem;
+    margin: 2rem;
+    border-radius: 50%;
+    border: 0.3rem solid rgba($charade, 0.3);
+    border-top-color: $charade;
+    animation: 1.5s spin infinite linear;
+    &.multi {
+        border-bottom-color: $charade;
+    }
+    @keyframes spin {
+        to {
+            transform: rotate(360deg);
+        }
+    }
 }
 #portfolio {
     display: flex;
@@ -29,18 +33,30 @@ $background-color_2: rgba(54, 56, 65, 0.4);
     justify-content: center;
     align-items: center;
     gap: 45px;
-    padding: 50px 0 50px 0;
     margin-bottom: 100px;
-    width: 99%;
-    background: white;
-
+    width: 100%;
     border-radius: 20px;
+
+    #portfolio-title {
+        display: flex;
+        justify-content: space-around;
+        color: #fff;
+        font-size: 15px;
+        width: 90px;
+        height: 45px;
+        background: white;
+        margin: 0;
+        flex-direction: row;
+        align-items: center;
+        border-radius: 50px 50px 0 0;
+        color: black;
+        position: relative;
+        left: 20px;
+        top: 60px;
+    }
 
     #portfolio-container {
         display: grid;
-        // flex-direction: row;
-        // flex-wrap: wrap;
-        // justify-content: center;
         grid-template-columns: 1fr;
         gap: 20px;
         padding: 50px;

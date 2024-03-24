@@ -1,28 +1,57 @@
 $color_1: #1f1f1f;
+$charade: #282a37;
+
 .home {
     display: flex;
     flex-direction: column;
     align-items: center;
-    border: red solid 1px;
+    width: 100%;
+
+    .donut {
+        width: 2rem;
+        height: 2rem;
+        margin: 2rem;
+        border-radius: 50%;
+        border: 0.3rem solid rgba($charade, 0.3);
+        border-top-color: $charade;
+        animation: 1.5s spin infinite linear;
+        &.multi {
+            border-bottom-color: $charade;
+        }
+    }
+
+    @keyframes spin {
+        to {
+            transform: rotate(360deg);
+        }
+    }
 
     h1 {
+        padding-top: 50px;
         display: flex;
         flex-direction: column;
         font-family: "Syne";
-        font-size: 22px;
+        font-size: 65px;
         font-weight: 800;
         color: $color_1;
-        margin: 0 40px;
-        align-items: center;
-        font-size: 80px;
-        border: blue solid 1px;
-
+        align-items: flex-start;
         span {
             font-family: "Work Sans";
             font-size: 10px;
-            letter-spacing: 0.3em;
+            letter-spacing: 0.6em;
             margin-left: 2px;
-            border: green solid 1px;
+        }
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .home {
+        display: flex;
+        flex-direction: column;
+
+        h1 {
+            font-size: 40px;
+            padding: 20px;
         }
     }
 }

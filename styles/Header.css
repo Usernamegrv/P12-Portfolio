@@ -67,8 +67,29 @@
   width: 30px;
 }
 
-@media screen and (max-height: 300px) {
-  ul {
-    margin-top: 40px;
+@media screen and (max-width: 320px) {
+  .header {
+    display: flex;
+    flex-direction: column;
+  }
+  .header .mg h1 {
+    display: none;
+  }
+  .header nav {
+    display: flex;
+    flex-direction: column;
+  }
+  .header nav ul {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 90%;
+    justify-content: center;
+  }
+  .header nav li {
+    padding: 0;
+  }
+  .header nav a {
+    padding: 10px 20px;
   }
 }/*# sourceMappingURL=Header.css.map */

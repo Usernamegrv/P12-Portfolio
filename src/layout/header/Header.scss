@@ -79,8 +79,32 @@ $color_2: #fff;
         }
     }
 }
-@media screen and (max-height: 300px) {
-    ul {
-        margin-top: 40px;
+
+@media screen and (max-width: 320px) {
+    .header {
+        display: flex;
+        flex-direction: column;
+        .mg {
+            h1 {
+                display: none;
+            }
+        }
+        nav {
+            display: flex;
+            flex-direction: column;
+            ul {
+                display: flex;
+                flex-direction: row;
+                flex-wrap: wrap;
+                width: 90%;
+                justify-content: center;
+            }
+            li {
+                padding: 0;
+            }
+            a {
+                padding: 10px 20px;
+            }
+        }
     }
 }
