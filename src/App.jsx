@@ -1,8 +1,10 @@
 import { HashRouter, Routes, Route } from "react-router-dom";
 import "./App.css";
 import Header from "./layout/header/Header.jsx";
-import Home from "./home/Home.jsx";
+import Home from "./pages/home/Home.jsx";
 import Footer from "./layout/footer/Footer.jsx";
+import Apropos from "./pages/apropos/Apropos.jsx";
+import Projets from "./pages/projets/Projets.jsx";
 
 function App() {
   return (
@@ -10,6 +12,8 @@ function App() {
       <Header />
       <Routes>
         <Route path="/" element={<Home />} />
+        <Route path="about" element={<Apropos />} />
+        <Route path="projects" element={<Projets />} />
       </Routes>
       <Footer />
     </HashRouter>

@@ -1,56 +1,74 @@
 .header {
   display: flex;
   justify-content: space-between;
-  padding: 10px;
-  background: white;
   align-items: center;
 }
-.header h1 {
+.header a {
+  color: #1f1f1f;
+  text-decoration: none;
+  cursor: pointer;
+}
+.header a:hover {
+  z-index: 1000;
+  position: relative;
+  color: #ffffff;
+}
+.header .mg h1 {
   display: flex;
   flex-direction: column;
   font-family: "Syne";
   font-size: 22px;
   font-weight: 800;
   color: #1f1f1f;
+  margin: 0 40px;
 }
-.header h1 span {
+.header .mg h1 span {
   font-family: "Work Sans";
   font-size: 10px;
   letter-spacing: 0.3em;
   margin-left: 2px;
 }
 .header nav ul {
-  display: flex;
-  align-items: center;
-  list-style-type: none;
+  padding: 0;
+  list-style: none;
+  display: table;
+  width: 600px;
+  text-align: center;
 }
 .header nav li {
-  padding: 0 10px;
-  font-size: 1.2em;
-  transition: ease-in-out 0.1s;
-}
-.header nav li:hover {
-  border-bottom: 2px solid #bdc4f8;
-  font-weight: 600;
-  cursor: pointer;
-  transition: ease-in-out 0.1s;
+  display: table-cell;
+  position: relative;
+  padding: 10px 0;
 }
 .header nav a {
-  text-decoration: none;
-  color: #1f1f1f;
-  cursor: pointer;
+  text-transform: uppercase;
+  letter-spacing: 0.15em;
+  display: inline-block;
+  padding: 15px 20px;
+  position: relative;
+}
+.header nav a:after {
+  background: none repeat scroll 0 0 transparent;
+  bottom: 0;
+  content: "";
+  display: block;
+  height: 2px;
+  left: 50%;
+  position: absolute;
+  background: #fff;
+  transition: width 0.3s ease 0s, left 0.3s ease 0s;
+  width: 0;
+}
+.header nav a:hover:after {
+  width: 100%;
+  left: 0;
 }
 .header nav img {
   width: 30px;
 }
 
-@media screen and (max-width: 586px) {
-  .header {
-    padding: 5px;
-    justify-content: center;
-    width: 100%;
-  }
-  .header h1 {
-    display: none;
+@media screen and (max-height: 300px) {
+  ul {
+    margin-top: 40px;
   }
 }/*# sourceMappingURL=Header.css.map */

@@ -15,12 +15,9 @@ $background_color3: #ffffff6c;
         margin: 70px 0 90px 0;
 
         figure {
-            position: relative;
-            left: 60px;
             border-radius: 44px 113px 68px 121px;
             padding: 8px;
             background: $background_color2;
-            border-right: $background_color3 solid 3px;
 
             img {
                 display: block;
@@ -35,21 +32,22 @@ $background_color3: #ffffff6c;
         flex: 1;
         padding: 50px;
         border-radius: 54px;
-        background: $background_color1;
+        background: $color_1;
 
         h2 {
             margin-bottom: 1em;
             font-family: "Syne";
             font-weight: 700;
             font-size: 30px;
-            color: $color_1;
+            color: $background_color1;
         }
 
         p {
             margin-bottom: 0.5em;
             margin-right: 3.5em;
-            color: $color_1;
+            color: $background_color1;
             text-align: justify;
+            font-weight: 600;
         }
     }
 
@@ -58,8 +56,8 @@ $background_color3: #ffffff6c;
             flex-direction: column;
 
             figure {
-                left: 0;
-                top: 42px;
+                // left: 0;
+                // top: 42px;
 
                 img {
                     margin-bottom: 30px;

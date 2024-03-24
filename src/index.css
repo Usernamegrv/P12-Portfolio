@@ -5,4 +5,32 @@ body {
   font-family: "Work Sans";
   font-size: 14px;
   min-height: 100vh;
+  background: url("/public/pexels.jpeg") no-repeat center center fixed;
+  background-size: cover;
+  cursor: none;
+}
+
+.mouse {
+  position: fixed;
+  border-radius: 1500px;
+  transform: translate(-50%, -50%);
+  mix-blend-mode: difference;
+}
+#cursor {
+  background: #fefefe;
+  width: 14px;
+  height: 14px;
+  position: fixed;
+}
+#mouse1 {
+  height: 100px;
+  width: 100px;
+  background: white;
+  transition: 0.1s ease-out;
+}
+#mouse2 {
+  height: 200px;
+  width: 200px;
+  background: rgb(46, 45, 45);
+  transition: 0.2s ease-out;
 }

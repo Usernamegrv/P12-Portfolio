@@ -3,6 +3,7 @@ import "./Portfolio.scss";
 
 function Portfolio() {
   const [projects, setProjects] = useState([]);
+  const [scrollPosition, setScrollPosition] = useState(0);
 
   useEffect(() => {
     fetch("projets.json")
@@ -11,14 +12,28 @@ function Portfolio() {
         setProjects(data);
       })
       .catch((error) => console.error("Error fetching projects:", error));
+
+    const handleScroll = () => {
+      setScrollPosition(window.scrollY);
+    };
+
+    window.addEventListener("scroll", handleScroll);
+
+    return () => {
+      window.removeEventListener("scroll", handleScroll);
+    };
   }, []);
+
   return (
     <>
-      <h2 id="portfolio-title">Projets</h2>
+      <h2 id="portfolio-title">SCROLL</h2>
       <section id="portfolio">
         <div id="portfolio-container">
           {projects.map((project, index) => (
-            <div key={index} className="row">
+            <div
+              key={index}
+              className={`row ${scrollPosition > index * 400 ? "even" : "odd"}`}
+            >
               <a href={project.url} target="_blank">
                 <div className="project-card card">
                   <div

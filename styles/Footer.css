@@ -2,7 +2,7 @@
   display: flex;
   justify-content: space-between;
   padding: 10px;
-  background: white;
+  background: rgba(17, 17, 17, 0);
   align-items: center;
 }
 .footer h1 {
@@ -11,7 +11,7 @@
   font-family: "Syne";
   font-size: 22px;
   font-weight: 800;
-  color: #1f1f1f;
+  color: #ffffff;
 }
 .footer h1 span {
   font-family: "Work Sans";
@@ -37,7 +37,7 @@
 }
 .footer nav a {
   text-decoration: none;
-  color: #1f1f1f;
+  color: #ffffff;
   cursor: pointer;
 }
 .footer nav img {

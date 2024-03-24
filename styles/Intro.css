@@ -10,12 +10,9 @@
   margin: 70px 0 90px 0;
 }
 #introduction .container-introduction figure {
-  position: relative;
-  left: 60px;
   border-radius: 44px 113px 68px 121px;
   padding: 8px;
   background: rgba(181, 181, 181, 0.768627451);
-  border-right: rgba(255, 255, 255, 0.4235294118) solid 3px;
 }
 #introduction .container-introduction figure img {
   display: block;
@@ -27,28 +24,25 @@
   flex: 1;
   padding: 50px;
   border-radius: 54px;
-  background: #1f1f1f;
+  background: #fff;
 }
 #introduction article h2 {
   margin-bottom: 1em;
   font-family: "Syne";
   font-weight: 700;
   font-size: 30px;
-  color: #fff;
+  color: #1f1f1f;
 }
 #introduction article p {
   margin-bottom: 0.5em;
   margin-right: 3.5em;
-  color: #fff;
+  color: #1f1f1f;
   text-align: justify;
+  font-weight: 600;
 }
 @media screen and (max-width: 1024px) {
   #introduction .container-introduction {
     flex-direction: column;
-  }
-  #introduction .container-introduction figure {
-    left: 0;
-    top: 42px;
   }
   #introduction .container-introduction figure img {
     margin-bottom: 30px;

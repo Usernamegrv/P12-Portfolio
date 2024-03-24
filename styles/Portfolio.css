@@ -1,9 +1,19 @@
 #portfolio-title {
   display: flex;
-  justify-content: center;
-  margin: 30px;
+  justify-content: space-around;
   color: #fff;
-  font-size: 20px;
+  font-size: 15px;
+  width: 90px;
+  height: 45px;
+  background: white;
+  margin: 0;
+  flex-direction: row;
+  align-items: center;
+  border-radius: 50px 50px 0 0;
+  color: black;
+  position: relative;
+  top: 50%;
+  left: 50%;
 }
 
 #portfolio {
@@ -13,21 +23,32 @@
   justify-content: center;
   align-items: center;
   gap: 45px;
-  width: 100%;
   padding: 50px 0 50px 0;
   margin-bottom: 100px;
+  width: 99%;
+  background: white;
+  border-radius: 20px;
 }
 #portfolio #portfolio-container {
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  justify-content: center;
-  gap: 25px;
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 20px;
   padding: 50px;
   background: #ffffff;
+  width: 85%;
+  border-radius: 20px;
 }
 #portfolio #portfolio-container .row {
   width: 280px;
+  opacity: 0;
+  transition: 1s ease;
+}
+#portfolio #portfolio-container .row.even {
+  transform: translateX(0);
+  opacity: 1;
+}
+#portfolio #portfolio-container .row.odd {
+  transform: translateX(-200%);
 }
 #portfolio #portfolio-container .card {
   float: left;

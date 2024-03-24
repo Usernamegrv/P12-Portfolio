@@ -1,15 +1,23 @@
 import "./Header.scss";
-
+import { Link } from "react-router-dom";
 function Header() {
   return (
     <header className="header">
-      <h1>
-        Morgane Gervois <span>Développeuse Web & Mobile</span>
-      </h1>
+      <div className="mg">
+        <h1>
+          Morgane Gervois <br></br> <span>Développeuse Web & Mobile</span>
+        </h1>
+      </div>
       <nav>
         <ul>
           <li>
-            <a href="#portfolio-title">projets</a>
+            <Link to="/about">à propos</Link>
+          </li>
+          <li>
+            <Link to="/projects">projets</Link>
+          </li>
+          <li>
+            <Link to="/">home</Link>
           </li>
           <li>
             <a href="mailto:morganegrvcontact@gmail.com">contact</a>
