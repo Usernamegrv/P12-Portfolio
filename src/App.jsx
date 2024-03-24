@@ -3,8 +3,9 @@ import "./App.css";
 import Header from "./layout/header/Header.jsx";
 import Home from "./pages/home/Home.jsx";
 import Footer from "./layout/footer/Footer.jsx";
-import Apropos from "./pages/apropos/Apropos.jsx";
+
 import Projets from "./pages/projets/Projets.jsx";
+import Apropos from "./pages/apropos/Apropos.jsx";
 
 function App() {
   return (
