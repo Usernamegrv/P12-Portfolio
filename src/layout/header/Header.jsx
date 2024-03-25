@@ -26,6 +26,7 @@ function Header() {
           <li>
             <a href="mailto:morganegrvcontact@gmail.com">contact</a>
           </li>
+
           <li>
             <a
               href="https://github.com/Usernamegrv"
@@ -33,8 +34,13 @@ function Header() {
               target="_blank"
             >
               <img
-                src="./github-mark.png"
-                id="github-icone"
+                src="./github-black.svg"
+                id="github-icone-black"
+                alt="Logo github"
+              />
+              <img
+                src="./github-white.svg"
+                id="github-icone-white"
                 alt="Logo github"
               />
             </a>
@@ -45,7 +51,16 @@ function Header() {
               rel="noopener"
               target="_blank"
             >
-              <img src="./linkedin.png" alt="Logo Linkedin" />
+              <img
+                src="./linkedin-black.svg"
+                id="linkedin-logo-black"
+                alt="Logo Linkedin"
+              />
+              <img
+                src="./linkedin-white.svg"
+                id="linkedin-logo-white"
+                alt="Logo Linkedin"
+              />
             </a>
           </li>
         </ul>

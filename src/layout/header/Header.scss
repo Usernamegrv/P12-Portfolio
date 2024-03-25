@@ -5,17 +5,7 @@ $color_2: #fff;
     display: flex;
     justify-content: space-between;
     align-items: center;
-
-    a {
-        color: $color_1;
-        text-decoration: none;
-        cursor: pointer;
-    }
-    a:hover {
-        z-index: 1000;
-        position: relative;
-        color: #ffffff;
-    }
+    margin: 20px;
     .mg {
         h1 {
             display: flex;
@@ -41,41 +31,72 @@ $color_2: #fff;
             display: table;
             width: 600px;
             text-align: center;
-        }
-        li {
-            display: table-cell;
-            position: relative;
-            padding: 10px 0;
-        }
-        a {
-            text-transform: uppercase;
-            letter-spacing: 0.15em;
-            display: inline-block;
-            padding: 15px 20px;
-            position: relative;
-            &:after {
-                background: none repeat scroll 0 0 transparent;
-                bottom: 0;
-                content: "";
-                display: block;
-                height: 2px;
-                left: 50%;
-                position: absolute;
-                background: #fff;
-                transition:
-                    width 0.3s ease 0s,
-                    left 0.3s ease 0s;
-                width: 0;
-            }
-            &:hover {
-                &:after {
-                    width: 100%;
-                    left: 0;
+            li {
+                display: table-cell;
+                position: relative;
+                padding: 10px 0;
+                a {
+                    color: $color_1;
+                    text-decoration: none;
+                    cursor: pointer;
+                    text-transform: uppercase;
+                    letter-spacing: 0.15em;
+                    display: inline-block;
+                    padding: 15px 20px;
+                    position: relative;
+                    &:hover {
+                        z-index: 1000;
+                        position: relative;
+                        color: #ffffff;
+                    }
+                    &:after {
+                        background: none repeat scroll 0 0 transparent;
+                        bottom: 0;
+                        content: "";
+                        display: block;
+                        height: 2px;
+                        left: 50%;
+                        position: absolute;
+                        background: #fff;
+                        transition:
+                            width 0.3s ease 0s,
+                            left 0.3s ease 0s;
+                        width: 0;
+                    }
+                    &:hover {
+                        &:after {
+                            width: 100%;
+                            left: 0;
+                        }
+                    }
+                    img {
+                        width: 23px;
+                        height: 23px;
+                        position: relative;
+                        transition: 0.7s ease-in-out;
+                    }
+                    img#github-icone-black {
+                        top: 29px;
+                    }
+                    img#linkedin-logo-black {
+                        top: 29px;
+                    }
+                    img#github-icone-white {
+                        opacity: 0;
+                        &:hover {
+                            opacity: 1;
+                            transition: 2ms ease-in-out;
+                        }
+                    }
+                    img#linkedin-logo-white {
+                        opacity: 0;
+                        &:hover {
+                            opacity: 1;
+                            transition: 2ms ease-in-out;
+                        }
+                    }
                 }
             }
-        }
-        img {
-            width: 30px;
         }
     }
 }

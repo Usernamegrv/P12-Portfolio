@@ -2,16 +2,7 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-}
-.header a {
-  color: #1f1f1f;
-  text-decoration: none;
-  cursor: pointer;
-}
-.header a:hover {
-  z-index: 1000;
-  position: relative;
-  color: #ffffff;
+  margin: 20px;
 }
 .header .mg h1 {
   display: flex;
@@ -35,19 +26,27 @@
   width: 600px;
   text-align: center;
 }
-.header nav li {
+.header nav ul li {
   display: table-cell;
   position: relative;
   padding: 10px 0;
 }
-.header nav a {
+.header nav ul li a {
+  color: #1f1f1f;
+  text-decoration: none;
+  cursor: pointer;
   text-transform: uppercase;
   letter-spacing: 0.15em;
   display: inline-block;
   padding: 15px 20px;
   position: relative;
 }
-.header nav a:after {
+.header nav ul li a:hover {
+  z-index: 1000;
+  position: relative;
+  color: #ffffff;
+}
+.header nav ul li a:after {
   background: none repeat scroll 0 0 transparent;
   bottom: 0;
   content: "";
@@ -59,12 +58,35 @@
   transition: width 0.3s ease 0s, left 0.3s ease 0s;
   width: 0;
 }
-.header nav a:hover:after {
+.header nav ul li a:hover:after {
   width: 100%;
   left: 0;
 }
-.header nav img {
-  width: 30px;
+.header nav ul li a img {
+  width: 23px;
+  height: 23px;
+  position: relative;
+  transition: 0.7s ease-in-out;
+}
+.header nav ul li a img#github-icone-black {
+  top: 29px;
+}
+.header nav ul li a img#linkedin-logo-black {
+  top: 29px;
+}
+.header nav ul li a img#github-icone-white {
+  opacity: 0;
+}
+.header nav ul li a img#github-icone-white:hover {
+  opacity: 1;
+  transition: 2ms ease-in-out;
+}
+.header nav ul li a img#linkedin-logo-white {
+  opacity: 0;
+}
+.header nav ul li a img#linkedin-logo-white:hover {
+  opacity: 1;
+  transition: 2ms ease-in-out;
 }
 
 @media screen and (max-width: 320px) {
