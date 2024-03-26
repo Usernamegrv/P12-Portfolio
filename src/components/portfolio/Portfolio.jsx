@@ -51,12 +51,11 @@ function Portfolio() {
                 }
                 onClick={() => openModal(index)}
               >
-                {/* <a href={project.url} target="_blank"> */}
                 <div className="project-card card">
                   <div
                     className="wrapper"
                     style={{
-                      background: `url('${project.image}') 50% 1% / cover no-repeat`,
+                      background: `url('${project.logo}') 50% 50% / cover no-repeat `,
                     }}
                   >
                     <div className="container-techno">
@@ -71,7 +70,6 @@ function Portfolio() {
                     </div>
                   </div>
                 </div>
-                {/* </a> */}
               </div>
             ))}
           </div>

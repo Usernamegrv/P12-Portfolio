@@ -21,9 +21,26 @@
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
+  opacity: 1;
   color: black;
   background: white;
   z-index: 9999;
   border-radius: 20px;
   cursor: pointer;
+  animation: fadeInModal 0.3s ease-in-out;
+}
+.modal-container .modal-background .modal .xmark {
+  display: flex;
+  justify-content: flex-end;
+  margin: 20px 20px 0 0;
+}
+.modal-container .modal-background .modal .xmark .close {
+  width: 25px;
+}
+
+@keyframes fadeInModal {
+  from {
+    opacity: 0;
+    transform: translate(-50%, -70%);
+  }
 }/*# sourceMappingURL=Modal.css.map */

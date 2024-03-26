@@ -1,0 +1,30 @@
+.slider-container {
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+
+.slider-container img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 80%;
+    height: 60%;
+    opacity: 0;
+    transition: opacity 0.5s ease-in-out;
+}
+
+.slider-container img.visible {
+    opacity: 1;
+}
+
+.next {
+    position: absolute;
+    top: 50%;
+    right: 10px;
+    transform: translateY(-50%);
+    background: transparent;
+    border: none;
+    font-size: 24px;
+    cursor: pointer;
+}

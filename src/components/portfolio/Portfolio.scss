@@ -3,7 +3,7 @@ $color_2: #808080;
 $color_3: #1f1f1f;
 $font-family_1: "Open Sans";
 $background-color_1: #ffffff;
-$background-color_2: rgba(54, 56, 65, 0.4);
+$background-color_2: rgb(0 0 0 / 49%);
 $charade: #282a37;
 
 .donut {
@@ -118,7 +118,7 @@ $charade: #282a37;
             .wrapper {
                 background-color: $background-color_1;
                 color: $color_3;
-                min-height: 440px;
+                min-height: 350px;
                 max-width: 300px;
                 border-radius: 10px;
                 position: relative;

@@ -15,7 +15,7 @@ function Home() {
       {!isLoading && (
         <>
           <h1>
-            Morgane Gervois <span>Développeuse Web & Mobile</span>
+            Site en construction <span>Site en construction</span>
           </h1>
         </>
       )}
