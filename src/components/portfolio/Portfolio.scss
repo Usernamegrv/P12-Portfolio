@@ -57,8 +57,10 @@ $charade: #282a37;
 
     #portfolio-container {
         display: grid;
-        grid-template-columns: 1fr;
-        gap: 20px;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        justify-items: center;
+        // gap: 10px;
+        // margin-bottom: 10px;
         padding: 50px;
         background: $background-color_1;
         width: 85%;
@@ -67,15 +69,15 @@ $charade: #282a37;
         .row {
             width: 280px;
             opacity: 0;
-            transition: 1s ease;
+            transition:
+                opacity 1s ease,
+                transform 1s ease;
+            margin-bottom: 20px;
+            transform: translateX(-400%);
 
-            &.even {
+            &.show {
                 transform: translateX(0);
                 opacity: 1;
-            }
-
-            &.odd {
-                transform: translateX(-200%);
             }
         }
         .card {

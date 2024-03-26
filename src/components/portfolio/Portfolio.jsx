@@ -4,46 +4,42 @@ import "./Portfolio.scss";
 function Portfolio() {
   const [isLoading, setIsLoading] = useState(true);
   const [projects, setProjects] = useState([]);
-  const [scrollPosition, setScrollPosition] = useState(0);
+  const [showCards, setShowCards] = useState(false);
 
   useEffect(() => {
     fetch("projets.json")
       .then((response) => response.json())
       .then((data) => {
         setProjects(data);
+        setShowCards(data.map(() => false));
+        setIsLoading(true);
       })
       .catch((error) => console.error("Error fetching projects:", error));
-
-    const handleScroll = () => {
-      setScrollPosition(window.scrollY);
-    };
-
-    window.addEventListener("scroll", handleScroll);
-
-    return () => {
-      window.removeEventListener("scroll", handleScroll);
-    };
   }, []);
-
+  const data = projects;
   useEffect(() => {
     setTimeout(() => {
       setIsLoading(false);
-    }, 1500);
-  }, []);
+      setShowCards(data.map(() => true)); // Initialiser tous les éléments à true pour les afficher
+    }, 1000);
+  });
 
   return (
     <>
       {isLoading && <div className="donut"></div>}
       {!isLoading && (
         <section id="portfolio">
-          <h2 id="portfolio-title">SCROLL</h2>
           <div id="portfolio-container">
             {projects.map((project, index) => (
               <div
                 key={index}
-                className={`row ${
-                  scrollPosition > index * 400 ? "even" : "odd"
-                }`}
+                className={`row ${showCards[index] ? "show" : ""}`}
+                style={{ transitionDelay: `${index * 0.2}s` }}
+                onAnimationEnd={() =>
+                  setShowCards((prevState) =>
+                    prevState.map((val, i) => (i === index ? true : val))
+                  )
+                }
               >
                 <a href={project.url} target="_blank">
                   <div className="project-card card">
