@@ -63,6 +63,9 @@
   margin-bottom: 20px;
   transform: translateX(-400%);
 }
+#portfolio #portfolio-container .row:hover {
+  cursor: pointer;
+}
 #portfolio #portfolio-container .row.show {
   transform: translateX(0);
   opacity: 1;

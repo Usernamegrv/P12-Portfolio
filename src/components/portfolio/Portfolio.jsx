@@ -1,10 +1,12 @@
 import { useEffect, useState } from "react";
+import Modal from "../modal/Modal";
 import "./Portfolio.scss";
 
 function Portfolio() {
   const [isLoading, setIsLoading] = useState(true);
   const [projects, setProjects] = useState([]);
   const [showCards, setShowCards] = useState(false);
+  const [selectedProject, setSelectedProject] = useState(null);
 
   useEffect(() => {
     fetch("projets.json")
@@ -24,6 +26,13 @@ function Portfolio() {
     }, 1000);
   });
 
+  const openModal = (index) => {
+    setSelectedProject(projects[index]);
+  };
+  const closeModal = () => {
+    setSelectedProject(null);
+  };
+
   return (
     <>
       {isLoading && <div className="donut"></div>}
@@ -40,32 +49,36 @@ function Portfolio() {
                     prevState.map((val, i) => (i === index ? true : val))
                   )
                 }
+                onClick={() => openModal(index)}
               >
-                <a href={project.url} target="_blank">
-                  <div className="project-card card">
-                    <div
-                      className="wrapper"
-                      style={{
-                        background: `url('${project.image}') 50% 1% / cover no-repeat`,
-                      }}
-                    >
-                      <div className="container-techno">
-                        <span className="techno">{project.techno}</span>
-                      </div>
-                      <div className="data">
-                        <div className="content">
-                          <span className="date">{project.date}</span>
-                          <h2 className="title">{project.title}</h2>
-                          <p className="text">{project.description}</p>
-                        </div>
+                {/* <a href={project.url} target="_blank"> */}
+                <div className="project-card card">
+                  <div
+                    className="wrapper"
+                    style={{
+                      background: `url('${project.image}') 50% 1% / cover no-repeat`,
+                    }}
+                  >
+                    <div className="container-techno">
+                      <span className="techno">{project.techno}</span>
+                    </div>
+                    <div className="data">
+                      <div className="content">
+                        <span className="date">{project.date}</span>
+                        <h2 className="title">{project.title}</h2>
+                        <p className="text">{project.description}</p>
                       </div>
                     </div>
                   </div>
-                </a>
+                </div>
+                {/* </a> */}
               </div>
             ))}
           </div>
         </section>
+      )}
+      {selectedProject && (
+        <Modal project={selectedProject} onClose={closeModal} />
       )}
     </>
   );
