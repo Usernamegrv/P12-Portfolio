@@ -40,7 +40,7 @@
     },
     {
         "title": "Print it",
-        "logo":"./images/logo/pi-logo.JPG",
+        "logo":"./images/pi/pi-cover.JPG",
         "url": "https://usernamegrv.github.io/P5-Print-it/",
         "images": [
              "./images/pi/pi1.JPG",
@@ -53,7 +53,7 @@
     },
     {
         "title": "Architecte",
-        "logo":"./images/logo/sb-logo.JPG",
+        "logo":"./images/sb/sb-cover.JPG",
         "url": "https://github.com/Usernamegrv/P6-SophieBluel-architecte",
         "images": [
             "./images/sb/sb1.JPG",
@@ -70,7 +70,7 @@
     },
     {
         "title": "Kasa",
-        "logo":"./images/logo/kasa-logo.JPG",
+        "logo":"./images/kasa/kasa-cover.JPG",
         "url": "https://github.com/Usernamegrv/P8-Kasa",
         "images": [
             "./images/kasa/kasa1.JPG",
@@ -83,7 +83,7 @@
     },
     {
         "title": "Photographe",
-        "logo":"./images/logo/nc-logo.JPG",
+        "logo":"./images/nc/nc-cover.JPG",
         "url": "https://usernamegrv.github.io/P9-NinaCarducci/",
         "images": [
             "./images/nc/nc1.JPG",
@@ -98,7 +98,7 @@
     },
     {
         "title": "724 Events",
-        "logo":"./images/logo/724-logo.JPG",
+        "logo":"./images/724/724-cover.JPG",
         "url": "https://github.com/Usernamegrv/P10-Debuggez-le-site-d-une-agence-devenementiel",
         "images":[
             "./images/724/724-1.JPG",
@@ -113,7 +113,7 @@
     },
     {
         "title": "Argent Bank",
-        "logo":"./images/logo/ab-logo.JPG",
+        "logo":"./images/ab/ab-cover.JPG",
         "url": "https://github.com/Usernamegrv/ArgentBank-website-main",
         "images": [
             "./images/ab/ab1.JPG",
