@@ -1,18 +1,19 @@
 .slider-container {
     position: relative;
     width: 100%;
-    height: 100%;
+    height: 420px;
     border: blue solid 2px;
 
     img {
         position: absolute;
         top: 0;
         left: 0;
-        width: 80%;
-        height: 60%;
+        width: 100%;
+        height: 420px;
         opacity: 0;
         transition: opacity 0.5s ease-in-out;
         border: red solid 2px;
+        // object-fit: cover;
     }
     .visible {
         opacity: 1;
