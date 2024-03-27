@@ -8,6 +8,13 @@ function Slider({ images }) {
   const nextSlide = () => {
     setCurrentIndex((prevIndex) => (prevIndex + 1) % images.length);
   };
+
+  const previousSlide = () => {
+    setCurrentIndex((prevIndex) =>
+      prevIndex === 0 ? images.length - 1 : prevIndex - 1
+    );
+  };
+
   return (
     <div className="slider-container">
       {images.map((image, index) => (
@@ -18,6 +25,9 @@ function Slider({ images }) {
           className={index === currentIndex ? "visible" : ""}
         />
       ))}
+      <button onClick={previousSlide} className="previous">
+        Previous
+      </button>
       <button onClick={nextSlide} className="next">
         next
       </button>

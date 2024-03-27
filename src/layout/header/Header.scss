@@ -4,8 +4,8 @@ $color_2: #fff;
 .header {
     display: flex;
     justify-content: space-between;
-    align-items: center;
-    margin: 20px;
+    align-items: baseline;
+    margin: 0 20px 0 20px;
     .mg {
         h1 {
             display: flex;
@@ -42,7 +42,7 @@ $color_2: #fff;
                     text-transform: uppercase;
                     letter-spacing: 0.15em;
                     display: inline-block;
-                    padding: 15px 20px;
+                    padding: 15px 10px;
                     position: relative;
                     &:hover {
                         z-index: 1000;
@@ -70,16 +70,21 @@ $color_2: #fff;
                         }
                     }
                     img {
-                        width: 23px;
-                        height: 23px;
+                        width: 20px;
+                        height: 20px;
                         position: relative;
                         transition: 0.7s ease-in-out;
                     }
                     img#github-icone-black {
-                        top: 29px;
+                        top: 20px;
+                        display: flex;
                     }
                     img#linkedin-logo-black {
-                        top: 29px;
+                        top: 20px;
+                        display: flex;
+                        &:hover {
+                            opacity: 0;
+                        }
                     }
                     img#github-icone-white {
                         opacity: 0;

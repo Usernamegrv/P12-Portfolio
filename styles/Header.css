@@ -1,8 +1,8 @@
 .header {
   display: flex;
   justify-content: space-between;
-  align-items: center;
-  margin: 20px;
+  align-items: baseline;
+  margin: 0 20px 0 20px;
 }
 .header .mg h1 {
   display: flex;
@@ -38,7 +38,7 @@
   text-transform: uppercase;
   letter-spacing: 0.15em;
   display: inline-block;
-  padding: 15px 20px;
+  padding: 15px 10px;
   position: relative;
 }
 .header nav ul li a:hover {
@@ -63,16 +63,21 @@
   left: 0;
 }
 .header nav ul li a img {
-  width: 23px;
-  height: 23px;
+  width: 20px;
+  height: 20px;
   position: relative;
   transition: 0.7s ease-in-out;
 }
 .header nav ul li a img#github-icone-black {
-  top: 29px;
+  top: 20px;
+  display: flex;
 }
 .header nav ul li a img#linkedin-logo-black {
-  top: 29px;
+  top: 20px;
+  display: flex;
+}
+.header nav ul li a img#linkedin-logo-black:hover {
+  opacity: 0;
 }
 .header nav ul li a img#github-icone-white {
   opacity: 0;
