@@ -19,7 +19,7 @@
   flex-direction: column;
   align-items: center;
   width: 700px;
-  height: 690px;
+  height: 650px;
   position: fixed;
   top: 50%;
   left: 50%;
@@ -35,11 +35,11 @@
 .modal-container .modal-background .modal .xmark {
   display: flex;
   justify-content: flex-end;
-  margin: 20px;
-  width: 90%;
+  margin: 20px 20px 10px 0;
+  width: 99%;
 }
 .modal-container .modal-background .modal .xmark .close {
-  width: 25px;
+  width: 20px;
 }
 .modal-container .modal-background .modal h2 {
   width: 90%;
@@ -54,16 +54,16 @@
 }
 .modal-container .modal-background .modal .slider-section {
   display: flex;
-  border: yellow solid 3px;
-  padding: 5px;
-  width: 90%;
-  height: 500px;
+  border-radius: 3px;
+  width: 80%;
+  box-shadow: 0 19px 38px rgba(0, 0, 0, 0.3), 0 15px 12px rgba(0, 0, 0, 0.2);
 }
 .modal-container .modal-background .modal .project-button {
   width: 115px;
   height: 40px;
   color: #fff;
-  border-radius: 8px;
+  border-radius: 5px;
+  padding: 5px;
   font-family: "Lato", sans-serif;
   font-weight: 500;
   background: transparent;
@@ -86,7 +86,7 @@
   border: none;
   z-index: 1;
   text-decoration: none;
-  margin: 23px;
+  margin-bottom: 25px;
 }
 .modal-container .modal-background .modal .button:after {
   position: absolute;
