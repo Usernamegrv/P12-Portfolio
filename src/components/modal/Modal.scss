@@ -30,7 +30,10 @@
             border-radius: 20px;
             cursor: auto;
             animation: fadeInModal 0.3s ease-in-out;
-
+            @media screen and (max-width: 320px) {
+                width: 300px;
+                height: 400px;
+            }
             .xmark {
                 display: flex;
                 justify-content: flex-end;
@@ -38,6 +41,12 @@
                 width: 99%;
                 .close {
                     width: 20px;
+                    @media screen and (max-width: 320px) {
+                        width: 10px;
+                    }
+                }
+                &:hover {
+                    cursor: pointer;
                 }
             }
             h2 {
@@ -53,6 +62,7 @@
             }
             .slider-section {
                 display: flex;
+                width: 100%;
                 border-radius: 3px;
                 // border: yellow solid 3px;
                 // padding: 5px;
@@ -61,6 +71,9 @@
                 box-shadow:
                     0 19px 38px rgba(0, 0, 0, 0.3),
                     0 15px 12px rgba(0, 0, 0, 0.2);
+                @media screen and (max-width: 320px) {
+                    height: 200px;
+                }
             }
             .project-button {
                 width: 115px;

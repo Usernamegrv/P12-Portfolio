@@ -160,4 +160,19 @@
 }
 #portfolio #portfolio-container .project-card .title a {
   color: #808080;
+}
+@media screen and (max-width: 1355px) {
+  #portfolio #portfolio-container {
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+}
+@media screen and (max-width: 996px) {
+  #portfolio #portfolio-container {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+@media screen and (max-width: 665px) {
+  #portfolio #portfolio-container {
+    grid-template-columns: 1fr;
+  }
 }/*# sourceMappingURL=Portfolio.css.map */

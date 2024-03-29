@@ -2,18 +2,12 @@ import "./Footer.scss";
 function Footer() {
   return (
     <footer className="footer">
-      {/* <h1>
+      <h1>
         Morgane Gervois <span>Développeuse Web & Mobile</span>
-      </h1> */}
+      </h1>
 
-      {/* <nav>
+      <nav>
         <ul>
-          <li>
-            <a href="#portfolio-title">projets</a>
-          </li>
-          <li>
-            <a href="mailto:morganegrvcontact@gmail.com">contact</a>
-          </li>
           <li>
             <a
               href="https://github.com/Usernamegrv"
@@ -21,9 +15,9 @@ function Footer() {
               target="_blank"
             >
               <img
-                src="./github-mark.png"
-                id="github-icone"
-                alt="icone github"
+                src="./github-white.svg"
+                id="github-icone-white"
+                alt="Logo github"
               />
             </a>
           </li>
@@ -33,11 +27,15 @@ function Footer() {
               rel="noopener"
               target="_blank"
             >
-              <img src="./linkedin.png" alt="Logo Linkedin" />
+              <img
+                src="./linkedin-white.svg"
+                id="linkedin-logo-white"
+                alt="Logo Linkedin"
+              />
             </a>
           </li>
         </ul>
-      </nav> */}
+      </nav>
     </footer>
   );
 }

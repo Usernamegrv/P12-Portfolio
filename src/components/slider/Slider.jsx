@@ -26,10 +26,10 @@ function Slider({ images }) {
         />
       ))}
       <button onClick={previousSlide} className="previous">
-        Previous
+        ◀
       </button>
       <button onClick={nextSlide} className="next">
-        next
+        ▶
       </button>
     </div>
   );

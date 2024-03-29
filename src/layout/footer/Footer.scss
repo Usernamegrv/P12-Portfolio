@@ -2,7 +2,7 @@ $color_1: #ffffff;
 $background-color1: rgba(17, 17, 17, 0);
 
 .footer {
-    display: flex;
+    display: none;
     justify-content: space-between;
     padding: 10px;
     background: $background-color1;
@@ -27,36 +27,41 @@ $background-color1: rgba(17, 17, 17, 0);
             display: flex;
             align-items: center;
             list-style-type: none;
-        }
-        li {
-            padding: 0 10px;
-            font-size: 1.2em;
-            transition: ease-in-out 0.1s;
-            &:hover {
-                border-bottom: 2px solid #bdc4f8;
-                font-weight: 600;
-                cursor: pointer;
+            li {
+                padding: 0 10px;
+                font-size: 1.2em;
                 transition: ease-in-out 0.1s;
+                &:hover {
+                    border-bottom: 2px solid #bdc4f8;
+                    font-weight: 600;
+                    cursor: pointer;
+                    transition: ease-in-out 0.1s;
+                }
+                a {
+                    text-decoration: none;
+                    color: $color_1;
+                    cursor: pointer;
+
+                    img {
+                        width: 20px;
+                        height: 20px;
+                    }
+                }
             }
         }
-        a {
-            text-decoration: none;
-            color: $color_1;
-            cursor: pointer;
-        }
-        img {
-            width: 30px;
-        }
+    }
+    @media screen and (max-width: 1017px) {
+        display: flex;
     }
 }
 
-@media screen and (max-width: 586px) {
-    .footer {
-        padding: 5px;
-        justify-content: center;
-        width: 100%;
-        h1 {
-            display: none;
-        }
-    }
-}
+// @media screen and (max-width: 586px) {
+//     .footer {
+//         padding: 5px;
+//         justify-content: center;
+//         width: 100%;
+//         h1 {
+//             display: none;
+//         }
+//     }
+// }

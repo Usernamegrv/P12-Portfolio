@@ -183,4 +183,20 @@ $charade: #282a37;
             }
         }
     }
+
+    @media screen and (max-width: 1355px) {
+        #portfolio-container {
+            grid-template-columns: 1fr 1fr 1fr;
+        }
+    }
+    @media screen and (max-width: 996px) {
+        #portfolio-container {
+            grid-template-columns: 1fr 1fr;
+        }
+    }
+    @media screen and (max-width: 665px) {
+        #portfolio-container {
+            grid-template-columns: 1fr;
+        }
+    }
 }

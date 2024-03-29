@@ -1,7 +1,7 @@
 .slider-container {
     position: relative;
     width: 100%;
-    height: 380px;
+    height: 379px;
     // border: blue solid 2px;
 
     img {
@@ -22,24 +22,49 @@
     .previous {
         position: absolute;
         top: 50%;
-        left: 10px;
+        // left: 10px;
         transform: translateY(-50%);
-        background: transparent;
+        background: rgba(185, 185, 185, 0.078);
+        // border-radius: 10px;
         border: none;
         font-size: 24px;
+        height: 100%;
         cursor: pointer;
-        border: red solid 2px;
+        // border: red solid 2px;
+        &:active {
+            background: rgba(158, 158, 158, 0.123);
+        }
     }
 
     .next {
+        color: black;
         position: absolute;
         top: 50%;
-        right: 10px;
+        background: rgba(185, 185, 185, 0.078);
+        right: 0;
         transform: translateY(-50%);
-        background: transparent;
+        // background: transparent;
         border: none;
         font-size: 24px;
+        height: 100%;
         cursor: pointer;
-        border: red solid 2px;
+        // border: red solid 2px;
+        &:active {
+            background: rgba(158, 158, 158, 0.123);
+        }
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .slider-container {
+        height: 200px;
+        width: 200px;
+        img {
+            height: 200px;
+            width: 240px;
+        }
+        .next {
+            right: -40px;
+        }
     }
 }
