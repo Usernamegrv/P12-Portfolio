@@ -9,12 +9,10 @@ body {
   line-height: 1.5;
   font-family: "Work Sans";
   font-size: 14px;
-
   background: url("/public/unsplash.jpg") no-repeat center center fixed;
   background-size: cover;
   background-position: center 60%;
   cursor: none;
-  padding-bottom: 100px;
 }
 
 .mouse {

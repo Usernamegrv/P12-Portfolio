@@ -11,6 +11,7 @@
   transform: skewY(-3deg);
   transform-origin: top;
   margin-top: -10px;
+  margin-bottom: 200px;
 }
 #technos h2 {
   font-family: "Syne";
@@ -23,6 +24,7 @@
   transform: skewY(3deg);
   transform-origin: top;
   margin-top: 20px;
+  z-index: 9999;
 }
 #technos::after {
   content: "";
@@ -30,9 +32,8 @@
   bottom: -80px;
   left: 0;
   width: 100%;
-  height: 200px;
+  height: 450px;
   background: black;
-  z-index: -1;
   transform: skewY(3deg); /* Inverser la transformation pour le bas */
   transform-origin: bottom;
   margin-bottom: 30px;

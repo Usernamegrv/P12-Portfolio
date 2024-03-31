@@ -4,6 +4,7 @@
   position: relative;
   transform: skewY(3deg);
   transform-origin: top;
+  z-index: 9999;
 }
 .container .logo-container {
   display: flex;

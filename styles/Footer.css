@@ -1,10 +1,10 @@
 .footer {
-  display: none;
+  display: flex;
   justify-content: space-between;
   padding: 10px;
   background: rgb(17, 17, 17);
   align-items: center;
-  position: fixed;
+  position: absolute;
   bottom: 0;
   width: 100%;
   height: auto;
@@ -17,7 +17,7 @@
   font-size: 22px;
   font-weight: 800;
   color: #ffffff;
-  margin-left: 10px;
+  margin-left: 15px;
 }
 .footer h2 span {
   font-family: "Work Sans";
@@ -35,6 +35,7 @@
   padding: 0 10px;
   font-size: 1.2em;
   transition: ease-in-out 0.1s;
+  margin-right: 15px;
 }
 .footer nav ul li:hover {
   border-bottom: 2px solid #bdc4f8;
