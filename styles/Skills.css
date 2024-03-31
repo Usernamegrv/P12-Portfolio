@@ -1,6 +1,21 @@
 .container {
   width: 50%;
   margin: 0 auto;
+  position: relative;
+  transform: skewY(3deg);
+  transform-origin: top;
+}
+.container .logo-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  position: absolute;
+  top: 9px;
+  left: -29px;
+  gap: 20px;
+}
+.container img {
+  width: 25px;
 }
 
 @keyframes load {

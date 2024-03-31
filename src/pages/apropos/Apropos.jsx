@@ -17,7 +17,6 @@ function Apropos() {
       {!isLoading && (
         <>
           <Intro />
-
           <Technos />
         </>
       )}

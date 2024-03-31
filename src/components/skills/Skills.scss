@@ -1,6 +1,21 @@
 .container {
     width: 50%;
     margin: 0 auto;
+    position: relative;
+    transform: skewY(3deg);
+    transform-origin: top;
+    .logo-container {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        position: absolute;
+        top: 9px;
+        left: -29px;
+        gap: 20px;
+    }
+    img {
+        width: 25px;
+    }
 }
 @keyframes load {
     from {
@@ -48,6 +63,7 @@
 .bar.front::before {
     background-color: #ffcc33;
 }
+
 .bar.back::before {
     background-color: #a6cfe3;
 }

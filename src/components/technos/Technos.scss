@@ -5,59 +5,37 @@ $color_1: white;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    margin: 0 50px 50px 50px;
     position: relative;
-    // z-index: -1;
-    height: 400px;
+    height: 500px;
     background: black;
-    width: 90%;
-    top: -20px;
-    border-radius: 5px;
+    top: -35px;
     z-index: -1;
-
+    transform: skewY(-3deg);
+    transform-origin: top;
+    margin-top: -10px;
     h2 {
         font-family: "Syne";
-        // margin-top: 80px;
         width: 100%;
         display: flex;
         justify-content: center;
         color: white;
         font-size: 30px;
-        // position: absolute;
-        // top: -75px;
         font-family: "Syne";
-        // font-weight: 800;
+        transform: skewY(3deg);
+        transform-origin: top;
+        margin-top: 20px;
     }
-
-    #images-tech {
-        display: flex;
-        align-items: baseline;
+    &::after {
+        content: "";
+        position: absolute;
+        bottom: -80px;
+        left: 0;
         width: 100%;
-        justify-content: center;
-        margin-top: 50px;
-
-        figure {
-            color: $color_1;
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-            margin: 0;
-            padding: 0;
-            width: 10%;
-
-            #logo-javascript {
-                width: 110px;
-            }
-            #logo-css {
-                width: 58px;
-            }
-            #logo-react {
-                width: 68px;
-            }
-            #logo-sass {
-                width: 61px;
-                margin: 0 20px 0 20px;
-            }
-        }
+        height: 200px;
+        background: black;
+        z-index: -1;
+        transform: skewY(3deg); /* Inverser la transformation pour le bas */
+        transform-origin: bottom;
+        margin-bottom: 30px;
     }
 }

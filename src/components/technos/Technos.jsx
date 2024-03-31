@@ -1,4 +1,3 @@
-// import { useEffect, useState } from "react";
 import Skills from "../skills/Skills.jsx";
 import "./Technos.scss";
 
