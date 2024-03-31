@@ -4,13 +4,13 @@ function Intro() {
   return (
     <section id="introduction">
       <div className="container-introduction">
-        <figure>
+        {/* <figure>
           <img
-            src="./images/IMG_6048888.jpg"
+            src="./images/IMG_6048888.png"
             alt="Photo morgane"
             id="photo-intro"
           />
-        </figure>
+        </figure> */}
         <article>
           <h2>Développeuse Web & Mobile</h2>
           <p>
