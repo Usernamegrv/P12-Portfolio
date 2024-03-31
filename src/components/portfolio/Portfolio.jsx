@@ -1,6 +1,7 @@
 import { useEffect, useState } from "react";
 import Modal from "../modal/Modal";
 import "./Portfolio.scss";
+import Spinner from "../spinner/Spinner.jsx";
 
 function Portfolio() {
   const [isLoading, setIsLoading] = useState(true);
@@ -22,7 +23,7 @@ function Portfolio() {
   useEffect(() => {
     setTimeout(() => {
       setIsLoading(false);
-      setShowCards(data.map(() => true)); // Initialiser tous les éléments à true pour les afficher
+      setShowCards(data.map(() => true));
     }, 1000);
   });
 
@@ -35,7 +36,7 @@ function Portfolio() {
 
   return (
     <>
-      {isLoading && <div className="donut"></div>}
+      {isLoading && <Spinner />}
       {!isLoading && (
         <section id="portfolio">
           <div id="portfolio-container">

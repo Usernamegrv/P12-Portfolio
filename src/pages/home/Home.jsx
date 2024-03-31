@@ -1,3 +1,4 @@
+import Spinner from "../../components/spinner/Spinner.jsx";
 import "./Home.scss";
 import { useEffect, useState } from "react";
 
@@ -11,7 +12,7 @@ function Home() {
   }, []);
   return (
     <section className="home">
-      {isLoading && <div className="donut"></div>}
+      {isLoading && <Spinner />}
       {!isLoading && (
         <>
           <h1>
