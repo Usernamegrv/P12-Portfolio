@@ -50,9 +50,4 @@
 .footer nav ul li a img {
   width: 20px;
   height: 20px;
-}
-@media screen and (max-width: 1017px) {
-  .footer {
-    display: flex;
-  }
 }/*# sourceMappingURL=Footer.css.map */
