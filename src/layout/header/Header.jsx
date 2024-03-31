@@ -32,6 +32,7 @@ function Header() {
               href="https://github.com/Usernamegrv"
               rel="noopener"
               target="_blank"
+              className="github-link"
             >
               <img
                 src="./github-black.svg"
@@ -50,6 +51,7 @@ function Header() {
               href="https://linkedin.com/in/morgane-gervois-a85ba820a "
               rel="noopener"
               target="_blank"
+              className="linkedin-link"
             >
               <img
                 src="./linkedin-black.svg"

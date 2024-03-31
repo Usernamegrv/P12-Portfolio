@@ -17,7 +17,7 @@ function Apropos() {
       {!isLoading && (
         <>
           <Intro />
-          <h2>SKILLS</h2>
+
           <Technos />
         </>
       )}

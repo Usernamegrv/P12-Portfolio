@@ -9,6 +9,7 @@ $color_2: #fff;
     @media screen and (max-width: 1017px) {
         justify-content: center;
     }
+
     .mg {
         h1 {
             display: flex;
@@ -37,6 +38,9 @@ $color_2: #fff;
             display: table;
             width: 600px;
             text-align: center;
+            @media screen and (max-width: 605px) {
+                width: 100%;
+            }
             li {
                 display: table-cell;
                 position: relative;
@@ -50,6 +54,7 @@ $color_2: #fff;
                     display: inline-block;
                     padding: 15px 10px;
                     position: relative;
+
                     &:hover {
                         z-index: 1000;
                         position: relative;
@@ -84,18 +89,12 @@ $color_2: #fff;
                     img#github-icone-black {
                         top: 20px;
                         display: flex;
-                        @media screen and (max-width: 1017px) {
-                            display: none;
-                        }
                     }
                     img#linkedin-logo-black {
                         top: 20px;
                         display: flex;
                         &:hover {
                             opacity: 0;
-                        }
-                        @media screen and (max-width: 1017px) {
-                            display: none;
                         }
                     }
                     img#github-icone-white {
@@ -104,9 +103,6 @@ $color_2: #fff;
                             opacity: 1;
                             transition: 2ms ease-in-out;
                         }
-                        @media screen and (max-width: 1017px) {
-                            display: none;
-                        }
                     }
                     img#linkedin-logo-white {
                         opacity: 0;
@@ -114,12 +110,15 @@ $color_2: #fff;
                             opacity: 1;
                             transition: 2ms ease-in-out;
                         }
-                        @media screen and (max-width: 1017px) {
-                            display: none;
-                        }
                     }
                 }
             }
+        }
+    }
+    @media screen and (max-width: 1017px) {
+        .github-link,
+        .linkedin-link {
+            display: none;
         }
     }
 }

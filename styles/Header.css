@@ -36,6 +36,11 @@
   width: 600px;
   text-align: center;
 }
+@media screen and (max-width: 605px) {
+  .header nav ul {
+    width: 100%;
+  }
+}
 .header nav ul li {
   display: table-cell;
   position: relative;
@@ -82,11 +87,6 @@
   top: 20px;
   display: flex;
 }
-@media screen and (max-width: 1017px) {
-  .header nav ul li a img#github-icone-black {
-    display: none;
-  }
-}
 .header nav ul li a img#linkedin-logo-black {
   top: 20px;
   display: flex;
@@ -94,22 +94,12 @@
 .header nav ul li a img#linkedin-logo-black:hover {
   opacity: 0;
 }
-@media screen and (max-width: 1017px) {
-  .header nav ul li a img#linkedin-logo-black {
-    display: none;
-  }
-}
 .header nav ul li a img#github-icone-white {
   opacity: 0;
 }
 .header nav ul li a img#github-icone-white:hover {
   opacity: 1;
   transition: 2ms ease-in-out;
-}
-@media screen and (max-width: 1017px) {
-  .header nav ul li a img#github-icone-white {
-    display: none;
-  }
 }
 .header nav ul li a img#linkedin-logo-white {
   opacity: 0;
@@ -119,7 +109,8 @@
   transition: 2ms ease-in-out;
 }
 @media screen and (max-width: 1017px) {
-  .header nav ul li a img#linkedin-logo-white {
+  .header .github-link,
+  .header .linkedin-link {
     display: none;
   }
 }

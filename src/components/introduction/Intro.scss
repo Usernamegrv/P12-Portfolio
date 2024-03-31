@@ -7,6 +7,9 @@ $background_color3: #ffffff6c;
     display: flex;
     justify-content: center;
     margin: 80px 0 0 0;
+    background: white;
+    z-index: -1;
+    position: relative;
 
     .container-introduction {
         width: 89%;
@@ -31,8 +34,6 @@ $background_color3: #ffffff6c;
     article {
         flex: 1;
         padding: 50px;
-        border-radius: 54px;
-        background: $color_1;
 
         h2 {
             margin-bottom: 1em;

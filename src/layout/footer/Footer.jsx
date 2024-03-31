@@ -1,10 +1,30 @@
+import { useEffect } from "react";
 import "./Footer.scss";
 function Footer() {
+  useEffect(() => {
+    const handleScroll = () => {
+      const footer = document.querySelector(".footer");
+      const scrollPosition = window.scrollY;
+      const windowHeight = window.innerHeight;
+      const fullHeight = document.body.scrollHeight;
+      if (scrollPosition + windowHeight >= fullHeight) {
+        footer.style.display = "flex"; // Affiche le footer lorsque l'utilisateur atteint le bas de la page
+      } else {
+        footer.style.display = "none"; // Cache le footer si l'utilisateur n'est pas au bas de la page
+      }
+    };
+
+    window.addEventListener("scroll", handleScroll);
+
+    return () => {
+      window.removeEventListener("scroll", handleScroll);
+    };
+  }, []);
   return (
     <footer className="footer">
-      <h1>
+      <h2>
         Morgane Gervois <span>Développeuse Web & Mobile</span>
-      </h1>
+      </h2>
 
       <nav>
         <ul>
