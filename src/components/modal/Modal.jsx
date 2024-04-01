@@ -15,7 +15,7 @@ function Modal({ project, onClose }) {
             <Slider images={project.images} />
           </div>
           <h2>{project.title}</h2>
-          <p>{project.description}</p>
+          {/* <p>{project.description}</p> */}
           <a
             href={project.url}
             target="_blank"

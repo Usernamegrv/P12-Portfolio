@@ -19,7 +19,7 @@
   flex-direction: column;
   align-items: center;
   width: 700px;
-  height: 650px;
+  height: 90%;
   position: fixed;
   top: 50%;
   left: 50%;
@@ -32,10 +32,15 @@
   cursor: auto;
   animation: fadeInModal 0.3s ease-in-out;
 }
+@media screen and (max-width: 750px) {
+  .modal-container .modal-background .modal {
+    width: 90%;
+    height: 555px;
+  }
+}
 @media screen and (max-width: 320px) {
   .modal-container .modal-background .modal {
-    width: 300px;
-    height: 400px;
+    height: 380px;
   }
 }
 .modal-container .modal-background .modal .xmark {
@@ -59,7 +64,6 @@
   width: 90%;
   display: flex;
   justify-content: flex-start;
-  margin: 20px;
 }
 .modal-container .modal-background .modal p {
   display: flex;

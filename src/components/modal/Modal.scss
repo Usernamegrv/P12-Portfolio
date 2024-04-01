@@ -18,7 +18,7 @@
             flex-direction: column;
             align-items: center;
             width: 700px;
-            height: 650px;
+            height: 90%;
             position: fixed;
             top: 50%;
             left: 50%;
@@ -30,10 +30,14 @@
             border-radius: 20px;
             cursor: auto;
             animation: fadeInModal 0.3s ease-in-out;
-            @media screen and (max-width: 320px) {
-                width: 300px;
-                height: 400px;
+            @media screen and (max-width: 750px) {
+                width: 90%;
+                height: 555px;
             }
+            @media screen and (max-width: 320px) {
+                height: 380px;
+            }
+
             .xmark {
                 display: flex;
                 justify-content: flex-end;
@@ -53,7 +57,7 @@
                 width: 90%;
                 display: flex;
                 justify-content: flex-start;
-                margin: 20px;
+                // margin: 20px;
             }
             p {
                 display: flex;
@@ -64,10 +68,7 @@
                 display: flex;
                 width: 100%;
                 border-radius: 3px;
-                // border: yellow solid 3px;
-                // padding: 5px;
                 width: 80%;
-                // height: 400px;
                 box-shadow:
                     0 19px 38px rgba(0, 0, 0, 0.3),
                     0 15px 12px rgba(0, 0, 0, 0.2);
