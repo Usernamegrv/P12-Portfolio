@@ -1,0 +1,175 @@
+.services-section {
+    position: relative;
+    width: 90%;
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    h2 {
+        display: flex;
+        width: 100%;
+        margin: 0;
+        padding: 0;
+        height: 30px;
+        padding-top: 40px;
+        padding-bottom: 5px;
+        font-family: "Syne";
+        position: relative;
+        color: #1f1f1f;
+        &::after {
+            content: "";
+            position: absolute;
+            border-bottom: solid 2px #43a8d2;
+            width: 90px;
+            bottom: 0;
+        }
+    }
+    .card-container {
+        position: absolute;
+        width: 350px;
+        height: 350px;
+        bottom: 0;
+        right: 0;
+        transform: translateX(-50%) translateY(-50%);
+        perspective: 1000px;
+        .left {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 50%;
+            height: 100%;
+            z-index: 2;
+            &:hover {
+                width: 100%;
+                z-index: 3;
+            }
+        }
+        .right {
+            position: absolute;
+            top: 0;
+            right: 0;
+            width: 50%;
+            height: 100%;
+            z-index: 2;
+            &:hover {
+                width: 100%;
+                z-index: 3;
+            }
+        }
+        .card {
+            position: absolute;
+            width: 100%;
+            height: 100%;
+            transform-style: preserve-3d;
+            transition: transform 0.5s ease-in-out;
+        }
+        .left:hover ~ .card {
+            transform: rotateY(-180deg);
+        }
+        .right:hover ~ .card {
+            transform: rotateY(180deg);
+        }
+    }
+    .card-container2 {
+        left: 450px;
+    }
+
+    .card {
+        .front,
+        .back {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            font-family: "Roboto", sans-serif;
+            color: #444;
+            -webkit-backface-visibility: hidden;
+            backface-visibility: hidden;
+            box-shadow:
+                0 2px 2px 0 rgba(0, 0, 0, 0.14),
+                0 3px 1px -2px rgba(0, 0, 0, 0.2),
+                0 1px 5px 0 rgba(0, 0, 0, 0.12);
+        }
+        .front {
+            background: rgb(0 0 0 / 11%);
+            z-index: 2;
+        }
+        .back {
+            background: #747880;
+            z-index: 3;
+            transform: rotateY(180deg);
+        }
+        .front {
+            .cover {
+                width: 100%;
+                height: 200px;
+                // background: url("/public/seoo.svg") center -290px;
+                // background: rgb(255 255 255 / 46%);
+                background-position: 50% 50% / no-repeat;
+                background-size: cover;
+                // background-size: 0%;
+            }
+            // .cover2 {
+            //     width: 100%;
+            //     height: 200px;
+            //     background: url("/public/site-responsive.png") center -230px;
+            //     background: rgb(255 255 255 / 46%);
+            //     background-position: 50% 50% / no-repeat;
+            //     background-size: cover;
+            // }
+            .logo-card {
+                margin-top: -45px;
+                img {
+                    display: block;
+                    margin: auto;
+                    width: 90px;
+                    -webkit-border-radius: 50%;
+                    border-radius: 50%;
+                }
+            }
+            .name {
+                margin: 10px auto 5px;
+                font-size: 1.5em;
+                font-weight: 300;
+                line-height: 1;
+                text-align: center;
+            }
+            .role {
+                margin: 0;
+                text-align: center;
+                color: #999;
+            }
+            .supporting_text {
+                margin: 15px auto 20px;
+                padding: 8px;
+                text-align: center;
+            }
+        }
+        .back {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            ul {
+                padding: 0;
+                list-style: none;
+                li {
+                    margin: 20px 0;
+                    .mdi {
+                        color: #fff;
+                        font-size: 2em;
+                        line-height: 1;
+                        transition: all 0.3s ease;
+                        span {
+                            font-style: normal;
+                            font-size: 70%;
+                            top: -3px;
+                            position: relative;
+                            margin-left: 8px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

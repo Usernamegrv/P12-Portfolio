@@ -1,0 +1,12 @@
+.container-banner {
+  width: 100%;
+  height: 400px;
+}
+.container-banner img {
+  width: 100%;
+  height: 400px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  -o-object-position: 50% 40%;
+     object-position: 50% 40%;
+}/*# sourceMappingURL=Banner.css.map */

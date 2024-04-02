@@ -4,7 +4,13 @@
   align-items: center;
   width: 100%;
 }
-.home h1 {
+.home article {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 90%;
+}
+.home article h1 {
   padding-top: 50px;
   display: flex;
   flex-direction: column;
@@ -14,11 +20,21 @@
   color: #1f1f1f;
   align-items: flex-start;
 }
-.home h1 span {
+.home article h1 span {
   font-family: "Work Sans";
   font-size: 10px;
   letter-spacing: 0.6em;
-  margin-left: 2px;
+  margin-left: 10px;
+}
+.home .text-defilement {
+  display: block;
+  margin: 40px auto;
+  padding: 0;
+  overflow: hidden;
+  position: relative;
+  width: 100%;
+  max-width: 640px;
+  height: 60px;
 }
 
 @media screen and (max-width: 320px) {

@@ -5,22 +5,38 @@ $color_1: #1f1f1f;
     flex-direction: column;
     align-items: center;
     width: 100%;
-
-    h1 {
-        padding-top: 50px;
+    article {
         display: flex;
         flex-direction: column;
-        font-family: "Syne";
-        font-size: 65px;
-        font-weight: 800;
-        color: $color_1;
-        align-items: flex-start;
-        span {
-            font-family: "Work Sans";
-            font-size: 10px;
-            letter-spacing: 0.6em;
-            margin-left: 2px;
+        align-items: center;
+        width: 90%;
+
+        h1 {
+            padding-top: 50px;
+            display: flex;
+            flex-direction: column;
+            font-family: "Syne";
+            font-size: 65px;
+            font-weight: 800;
+            color: $color_1;
+            align-items: flex-start;
+            span {
+                font-family: "Work Sans";
+                font-size: 10px;
+                letter-spacing: 0.6em;
+                margin-left: 10px;
+            }
         }
+    }
+    .text-defilement {
+        display: block;
+        margin: 40px auto;
+        padding: 0;
+        overflow: hidden;
+        position: relative;
+        width: 100%;
+        max-width: 640px;
+        height: 60px;
     }
 }
 

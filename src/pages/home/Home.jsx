@@ -1,4 +1,8 @@
+import Defilement from "../../components/defilement/Defilement.jsx";
+import Services from "../../components/services/Services.jsx";
 import Spinner from "../../components/spinner/Spinner.jsx";
+import Banner from "../../layout/banner/Banner.jsx";
+
 import "./Home.scss";
 import { useEffect, useState } from "react";
 
@@ -15,9 +19,17 @@ function Home() {
       {isLoading && <Spinner />}
       {!isLoading && (
         <>
-          <h1>
-            Site en construction <span>Site en construction</span>
-          </h1>
+          <article>
+            <h1>
+              Morgane Gervois <span>Développeuse web & mobile</span>
+            </h1>
+          </article>
+          <div className="text-defilement">
+            <Defilement />
+          </div>
+          <Banner />
+          <div className="decor"></div>
+          <Services />
         </>
       )}
     </section>

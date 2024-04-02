@@ -12,6 +12,7 @@ $background-color1: rgba(17, 17, 17);
     width: 100%;
     height: auto;
     z-index: -1;
+    margin-top: 50px;
 
     h2 {
         display: flex;
@@ -25,7 +26,7 @@ $background-color1: rgba(17, 17, 17);
         span {
             font-family: "Work Sans";
             font-size: 10px;
-            letter-spacing: 0.3em;
+            letter-spacing: 0.5em;
             margin-left: 2px;
         }
     }
