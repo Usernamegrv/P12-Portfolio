@@ -58,12 +58,12 @@ function Services() {
     {
       title: "Optimisation",
       description: "I love to code and make stuff fly and spin.",
-      image: "./public/seoo.svg",
+      image: "./seoo.svg",
     },
     {
       title: "Création de site web et mobile",
       description: "I love to code and make stuff fly and spin.",
-      image: "./public/site-responsive.png",
+      image: "./site-responsive.png",
     },
   ];
 

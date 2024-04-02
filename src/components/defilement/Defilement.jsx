@@ -9,7 +9,7 @@ function Defilement() {
       >
         <span>
           Créez une présence en ligne unique, avec un site conçu sur mesure pour
-          répondre à vos besoins.
+          répondre à vos besoins
         </span>
       </div>
     </>

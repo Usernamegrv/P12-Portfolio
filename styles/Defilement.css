@@ -14,7 +14,8 @@
 
 .text-defilement div span {
   animation: defilement 10s infinite linear;
-  background: rgb(255, 255, 255);
+  background: white;
+  color: black;
 }
 
 .text-defilement div:after {
@@ -23,7 +24,8 @@
   left: 0;
   content: attr(data-text);
   animation: defilement2 10s infinite linear;
-  background: rgb(255, 255, 255);
+  background: white;
+  color: black;
 }
 
 @keyframes defilement {

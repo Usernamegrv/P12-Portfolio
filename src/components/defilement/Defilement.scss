@@ -1,3 +1,6 @@
+$color_def_background: white;
+$color_def: black;
+
 .text-defilement div {
     position: absolute;
     min-width: 100%; /* au minimum la largeur du conteneur */
@@ -14,7 +17,8 @@
 
 .text-defilement div span {
     animation: defilement 10s infinite linear;
-    background: rgb(255, 255, 255);
+    background: $color_def_background;
+    color: $color_def;
 }
 
 .text-defilement div:after {
@@ -23,7 +27,8 @@
     left: 0;
     content: attr(data-text);
     animation: defilement2 10s infinite linear;
-    background: rgb(255, 255, 255);
+    background: $color_def_background;
+    color: $color_def;
 }
 
 @keyframes defilement {
