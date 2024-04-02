@@ -24,11 +24,12 @@ function Home() {
               Morgane Gervois <span>Développeuse web & mobile</span>
             </h1>
           </article>
+
           <div className="text-defilement">
             <Defilement />
           </div>
           <Banner />
-          <div className="decor"></div>
+
           <Services />
         </>
       )}

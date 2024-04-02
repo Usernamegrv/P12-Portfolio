@@ -1,9 +1,9 @@
-$color_def_background: white;
-$color_def: black;
+$color_def1: white;
+$color_def2: black;
 
 .text-defilement div {
     position: absolute;
-    min-width: 100%; /* au minimum la largeur du conteneur */
+    min-width: 100%;
 }
 
 .text-defilement div span,
@@ -17,8 +17,9 @@ $color_def: black;
 
 .text-defilement div span {
     animation: defilement 10s infinite linear;
-    background: $color_def_background;
-    color: $color_def;
+    background: $color_def2;
+    color: $color_def1;
+    padding: 0 10px;
 }
 
 .text-defilement div:after {
@@ -27,8 +28,9 @@ $color_def: black;
     left: 0;
     content: attr(data-text);
     animation: defilement2 10s infinite linear;
-    background: $color_def_background;
-    color: $color_def;
+    background: $color_def2;
+    color: $color_def1;
+    padding: 0 10px;
 }
 
 @keyframes defilement {
@@ -45,6 +47,6 @@ $color_def: black;
         margin-left: 100%;
     }
     100% {
-        margin-left: 0%;
+        margin-left: 0;
     }
 }

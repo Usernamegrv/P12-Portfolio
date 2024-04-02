@@ -4,7 +4,7 @@ import PropTypes from "prop-types";
 function Services() {
   function ServiceCard({ title, description, image }) {
     return (
-      <div className="card-container">
+      <>
         <div className="left"></div>
         <div className="right"></div>
         <div className="card">
@@ -44,7 +44,7 @@ function Services() {
             </ul>
           </div>
         </div>
-      </div>
+      </>
     );
   }
 
@@ -61,6 +61,11 @@ function Services() {
       image: "./seoo.svg",
     },
     {
+      title: "Optimisation",
+      description: "I love to code and make stuff fly and spin.",
+      image: "./seoo.svg",
+    },
+    {
       title: "Création de site web et mobile",
       description: "I love to code and make stuff fly and spin.",
       image: "./site-responsive.png",
@@ -70,14 +75,18 @@ function Services() {
   return (
     <section className="services-section">
       <h2>Mes services</h2>
-      {servicesData.map((service, index) => (
-        <ServiceCard
-          key={index}
-          title={service.title}
-          description={service.description}
-          image={service.image}
-        />
-      ))}
+      <div className="cards-wrapper">
+        {servicesData.map((service, index) => (
+          <div className="card-container" key={index}>
+            <ServiceCard
+              key={index}
+              title={service.title}
+              description={service.description}
+              image={service.image}
+            />
+          </div>
+        ))}
+      </div>
     </section>
   );
 }

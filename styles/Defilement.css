@@ -1,6 +1,6 @@
 .text-defilement div {
   position: absolute;
-  min-width: 100%; /* au minimum la largeur du conteneur */
+  min-width: 100%;
 }
 
 .text-defilement div span,
@@ -14,8 +14,9 @@
 
 .text-defilement div span {
   animation: defilement 10s infinite linear;
-  background: white;
-  color: black;
+  background: black;
+  color: white;
+  padding: 0 10px;
 }
 
 .text-defilement div:after {
@@ -24,8 +25,9 @@
   left: 0;
   content: attr(data-text);
   animation: defilement2 10s infinite linear;
-  background: white;
-  color: black;
+  background: black;
+  color: white;
+  padding: 0 10px;
 }
 
 @keyframes defilement {
@@ -41,6 +43,6 @@
     margin-left: 100%;
   }
   100% {
-    margin-left: 0%;
+    margin-left: 0;
   }
 }/*# sourceMappingURL=Defilement.css.map */

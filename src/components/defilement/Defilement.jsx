@@ -4,12 +4,12 @@ function Defilement() {
   return (
     <>
       <div
-        data-text="Créez une présence en ligne unique, avec un site conçu sur mesure
-              pour répondre à vos besoins."
+        data-text="🚀 Créez une présence en ligne unique, avec un site conçu sur mesure
+              pour répondre à vos besoins "
       >
         <span>
-          Créez une présence en ligne unique, avec un site conçu sur mesure pour
-          répondre à vos besoins
+          🚀 Créez une présence en ligne unique, avec un site conçu sur mesure
+          pour répondre à vos besoins
         </span>
       </div>
     </>
