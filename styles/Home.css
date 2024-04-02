@@ -26,13 +26,6 @@
   letter-spacing: 0.6em;
   margin-left: 10px;
 }
-@media screen and (max-width: 320px) {
-  .home article h1 {
-    width: 100%;
-    font-size: 20px;
-    padding-top: 10px;
-  }
-}
 .home .text-defilement {
   display: block;
   margin: 40px auto;
@@ -44,13 +37,19 @@
   height: 60px;
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 325px) {
   .home {
     display: flex;
     flex-direction: column;
   }
-  .home h1 {
-    font-size: 40px;
-    padding: 20px;
+  .home article {
+    width: 100%;
+  }
+  .home article h1 {
+    font-size: 30px;
+    padding: 10px;
+  }
+  .home article h1 span {
+    margin-left: 5px;
   }
 }/*# sourceMappingURL=Home.css.map */

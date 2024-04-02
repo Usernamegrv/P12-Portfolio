@@ -95,7 +95,7 @@
   z-index: 2;
 }
 .services-section .cards-wrapper .card-container .card .back {
-  background: #747880;
+  background: #43a8d2;
   z-index: 3;
   transform: rotateY(180deg);
 }
