@@ -12,7 +12,7 @@ $color_1: #1f1f1f;
         width: 90%;
 
         h1 {
-            padding-top: 50px;
+            padding-top: 30px;
             display: flex;
             flex-direction: column;
             font-family: "Syne";
@@ -21,6 +21,36 @@ $color_1: #1f1f1f;
             color: $color_1;
             align-items: flex-start;
 
+            @media screen and (max-width: 972px) {
+                font-size: 56px;
+            }
+            @media screen and (max-width: 950px) {
+                font-size: 55px;
+            }
+            @media screen and (max-width: 823px) {
+                font-size: 50px;
+            }
+            @media screen and (max-width: 747px) {
+                font-size: 45px;
+            }
+            @media screen and (max-width: 672px) {
+                font-size: 40px;
+            }
+            @media screen and (max-width: 598px) {
+                font-size: 35px;
+            }
+            @media screen and (max-width: 525px) {
+                font-size: 30px;
+            }
+            @media screen and (max-width: 449px) {
+                font-size: 25px;
+            }
+            @media screen and (max-width: 374px) {
+                font-size: 20px;
+            }
+            @media screen and (max-width: 325px) {
+                font-size: 15px;
+            }
             span {
                 font-family: "Work Sans";
                 font-size: 10px;
@@ -48,7 +78,6 @@ $color_1: #1f1f1f;
         article {
             width: 100%;
             h1 {
-                font-size: 30px;
                 padding: 10px;
                 span {
                     margin-left: 5px;

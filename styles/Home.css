@@ -11,7 +11,7 @@
   width: 90%;
 }
 .home article h1 {
-  padding-top: 50px;
+  padding-top: 30px;
   display: flex;
   flex-direction: column;
   font-family: "Syne";
@@ -19,6 +19,56 @@
   font-weight: 800;
   color: #1f1f1f;
   align-items: flex-start;
+}
+@media screen and (max-width: 972px) {
+  .home article h1 {
+    font-size: 56px;
+  }
+}
+@media screen and (max-width: 950px) {
+  .home article h1 {
+    font-size: 55px;
+  }
+}
+@media screen and (max-width: 823px) {
+  .home article h1 {
+    font-size: 50px;
+  }
+}
+@media screen and (max-width: 747px) {
+  .home article h1 {
+    font-size: 45px;
+  }
+}
+@media screen and (max-width: 672px) {
+  .home article h1 {
+    font-size: 40px;
+  }
+}
+@media screen and (max-width: 598px) {
+  .home article h1 {
+    font-size: 35px;
+  }
+}
+@media screen and (max-width: 525px) {
+  .home article h1 {
+    font-size: 30px;
+  }
+}
+@media screen and (max-width: 449px) {
+  .home article h1 {
+    font-size: 25px;
+  }
+}
+@media screen and (max-width: 374px) {
+  .home article h1 {
+    font-size: 20px;
+  }
+}
+@media screen and (max-width: 325px) {
+  .home article h1 {
+    font-size: 15px;
+  }
 }
 .home article h1 span {
   font-family: "Work Sans";
@@ -46,7 +96,6 @@
     width: 100%;
   }
   .home article h1 {
-    font-size: 30px;
     padding: 10px;
   }
   .home article h1 span {

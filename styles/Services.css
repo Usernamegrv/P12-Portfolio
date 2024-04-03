@@ -41,6 +41,12 @@
   transform: translateX(-50%) translateY(-50%);
   perspective: 1000px;
 }
+@media screen and (max-width: 325px) {
+  .services-section .cards-wrapper .card-container {
+    width: 300px;
+    height: 300px;
+  }
+}
 .services-section .cards-wrapper .card-container .left {
   position: absolute;
   top: 0;
@@ -156,12 +162,6 @@
   position: relative;
   margin-left: 8px;
 }
-@media screen and (max-width: 320px) {
-  .services-section .cards-wrapper .card-container {
-    width: 300px;
-    height: 300px;
-  }
-}
 @media screen and (max-width: 1180px) {
   .services-section .cards-wrapper {
     grid-template-columns: 1fr 1fr;
@@ -170,6 +170,11 @@
 @media screen and (max-width: 785px) {
   .services-section .cards-wrapper {
     grid-template-columns: 1fr;
+  }
+}
+@media screen and (max-width: 325px) {
+  .services-section .cards-wrapper {
+    margin-top: 80px;
   }
 }
 @media screen and (max-width: 1180px) {
