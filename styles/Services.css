@@ -23,11 +23,21 @@
   bottom: 0;
   left: 0;
 }
+@media screen and (max-width: 785px) {
+  .services-section h2 {
+    margin-left: 40px;
+  }
+}
+@media screen and (max-width: 375px) {
+  .services-section h2 {
+    margin-left: 20px;
+  }
+}
 .services-section .cards-wrapper {
   position: absolute;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
-  margin-top: 20px;
+  margin-top: 50px;
   width: 100%;
   top: 90px;
   gap: 10px;
@@ -185,5 +195,12 @@
 @media screen and (max-width: 785px) {
   .services-section {
     min-height: 220vh;
+    width: 100%;
+  }
+}
+@media screen and (max-width: 376px) {
+  .services-section {
+    min-height: 230vh;
+    width: 100%;
   }
 }/*# sourceMappingURL=Services.css.map */

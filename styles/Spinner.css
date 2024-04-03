@@ -13,8 +13,8 @@
   align-items: center;
 }
 .container-donut .donut {
-  width: 2rem;
-  height: 2rem;
+  width: 50px;
+  height: 50px;
   position: absolute;
   left: 50%;
   border-radius: 50%;

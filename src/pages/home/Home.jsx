@@ -12,7 +12,7 @@ function Home() {
   useEffect(() => {
     setTimeout(() => {
       setIsLoading(false);
-    }, 2000);
+    }, 1050);
   }, []);
   return (
     <section className="home">

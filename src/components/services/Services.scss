@@ -24,12 +24,18 @@ $color1-service-section: #43a8d2;
             bottom: 0;
             left: 0;
         }
+        @media screen and (max-width: 785px) {
+            margin-left: 40px;
+        }
+        @media screen and (max-width: 375px) {
+            margin-left: 20px;
+        }
     }
     .cards-wrapper {
         position: absolute;
         display: grid;
         grid-template-columns: 1fr 1fr 1fr;
-        margin-top: 20px;
+        margin-top: 50px;
         width: 100%;
         top: 90px;
         gap: 10px;
@@ -187,5 +193,10 @@ $color1-service-section: #43a8d2;
     }
     @media screen and (max-width: 785px) {
         min-height: 220vh;
+        width: 100%;
+    }
+    @media screen and (max-width: 376px) {
+        min-height: 230vh;
+        width: 100%;
     }
 }
