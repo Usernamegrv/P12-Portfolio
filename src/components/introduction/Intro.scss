@@ -1,7 +1,5 @@
 $color_1: #fff;
-$background_color1: #1f1f1f;
-$background_color2: #b5b5b5c4;
-$background_color3: #ffffff6c;
+$color_2: #1f1f1f;
 
 #introduction {
     display: flex;
@@ -16,64 +14,41 @@ $background_color3: #ffffff6c;
         display: flex;
         align-items: center;
         margin: 0 0 90px 0;
+        article {
+            flex: 1;
+            padding: 50px;
 
-        figure {
-            border-radius: 44px 113px 68px 121px;
-            padding: 8px;
-            background: $background_color2;
-
-            img {
-                display: block;
-                margin: auto;
-                width: 384px;
-                border-radius: 65px 41px 68px 38px;
+            h2 {
+                margin-bottom: 0;
+                position: absolute;
+                margin-top: 0;
+                top: -40px;
+                font-size: 50px;
+                font-family: fantasy;
+                color: #8080801c;
             }
-        }
-    }
 
-    article {
-        flex: 1;
-        padding: 50px;
+            span {
+                position: relative;
+                bottom: 65px;
+                left: 43px;
+                font-weight: 600;
+                font-size: 20px;
+                font-family: "Work Sans";
+                color: $color_2;
+            }
 
-        h2 {
-            margin-bottom: 0;
-            position: absolute;
-            margin-top: 0;
-            top: -37px;
-            font-size: 50px;
-            font-family: fantasy;
-            color: #8080801c;
-        }
-
-        span {
-            position: relative;
-            bottom: 65px;
-            left: 43px;
-            font-weight: 600;
-            font-size: 20px;
-            font-family: "Work Sans";
-            color: #1f1f1f;
-        }
-
-        p {
-            color: $background_color1;
-            text-align: justify;
-            font-weight: 600;
+            p {
+                color: $color_2;
+                text-align: justify;
+                font-weight: 600;
+            }
         }
     }
 
     @media screen and (max-width: 1024px) {
         .container-introduction {
             flex-direction: column;
-
-            figure {
-                // left: 0;
-                // top: 42px;
-
-                img {
-                    margin-bottom: 30px;
-                }
-            }
             article {
                 width: 80%;
 

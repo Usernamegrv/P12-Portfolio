@@ -2,7 +2,7 @@
 import "./Footer.scss";
 function Footer() {
   return (
-    <footer className="footer">
+    <footer className="footer" id="footer">
       <h2>
         Morgane Gervois <span>Développeuse Web & Mobile</span>
       </h2>

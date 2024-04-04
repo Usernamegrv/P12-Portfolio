@@ -39,8 +39,8 @@ function Portfolio() {
       {isLoading && <Spinner />}
       {!isLoading && (
         <section id="portfolio">
-          <h2>PORTFOLIO</h2>
-          <span>PORTFOLIO</span>
+          <h2 className="main-title">PORTFOLIO</h2>
+          <span className="main-span">PORTFOLIO</span>
           <div id="portfolio-container">
             {projects.map((project, index) => (
               <div

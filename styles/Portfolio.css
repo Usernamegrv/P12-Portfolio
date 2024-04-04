@@ -11,17 +11,17 @@
   margin-top: 40px;
   position: relative;
 }
-#portfolio h2 {
+#portfolio .main-title {
   position: absolute;
-  top: -5px;
+  top: -2px;
   left: 120px;
   font-size: 50px;
   font-family: fantasy;
   color: rgba(128, 128, 128, 0.1098039216);
 }
-#portfolio span {
+#portfolio .main-span {
   position: absolute;
-  top: 62px;
+  top: 65px;
   left: 165px;
   font-weight: 600;
   font-size: 20px;

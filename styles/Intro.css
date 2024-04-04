@@ -12,31 +12,20 @@
   align-items: center;
   margin: 0 0 90px 0;
 }
-#introduction .container-introduction figure {
-  border-radius: 44px 113px 68px 121px;
-  padding: 8px;
-  background: rgba(181, 181, 181, 0.768627451);
-}
-#introduction .container-introduction figure img {
-  display: block;
-  margin: auto;
-  width: 384px;
-  border-radius: 65px 41px 68px 38px;
-}
-#introduction article {
+#introduction .container-introduction article {
   flex: 1;
   padding: 50px;
 }
-#introduction article h2 {
+#introduction .container-introduction article h2 {
   margin-bottom: 0;
   position: absolute;
   margin-top: 0;
-  top: -37px;
+  top: -40px;
   font-size: 50px;
   font-family: fantasy;
   color: rgba(128, 128, 128, 0.1098039216);
 }
-#introduction article span {
+#introduction .container-introduction article span {
   position: relative;
   bottom: 65px;
   left: 43px;
@@ -45,7 +34,7 @@
   font-family: "Work Sans";
   color: #1f1f1f;
 }
-#introduction article p {
+#introduction .container-introduction article p {
   color: #1f1f1f;
   text-align: justify;
   font-weight: 600;
@@ -53,9 +42,6 @@
 @media screen and (max-width: 1024px) {
   #introduction .container-introduction {
     flex-direction: column;
-  }
-  #introduction .container-introduction figure img {
-    margin-bottom: 30px;
   }
   #introduction .container-introduction article {
     width: 80%;

@@ -4,7 +4,7 @@ function Header() {
   const location = useLocation();
   const isHomePage = location.pathname === "/";
   return (
-    <header className="header">
+    <header className="header" id="header">
       <div className="mg">
         {!isHomePage && (
           <h1>

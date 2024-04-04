@@ -17,17 +17,17 @@ $background-color_2: rgb(0 0 0 / 49%);
     border-radius: 20px;
     margin-top: 40px;
     position: relative;
-    h2 {
+    .main-title {
         position: absolute;
-        top: -5px;
+        top: -2px;
         left: 120px;
         font-size: 50px;
         font-family: fantasy;
         color: #8080801c;
     }
-    span {
+    .main-span {
         position: absolute;
-        top: 62px;
+        top: 65px;
         left: 165px;
         font-weight: 600;
         font-size: 20px;
