@@ -14,6 +14,7 @@
   font-family: "Syne";
   position: relative;
   color: #1f1f1f;
+  z-index: -1;
 }
 .services-section h2::after {
   content: "";

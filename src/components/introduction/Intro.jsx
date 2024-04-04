@@ -4,15 +4,9 @@ function Intro() {
   return (
     <section id="introduction">
       <div className="container-introduction">
-        {/* <figure>
-          <img
-            src="./images/IMG_6048888.png"
-            alt="Photo morgane"
-            id="photo-intro"
-          />
-        </figure> */}
         <article>
-          <h2>Développeuse Web & Mobile</h2>
+          <h2>ABOUT ME</h2>
+          <span>ABOUT ME</span>
           <p>
             Étudiante en développement web et mobile chez Openclassroom, je suis
             ici pour transformer vos idées en réalité numérique.

@@ -18,10 +18,10 @@ function Header() {
             <Link to="/">home</Link>
           </li>
           <li>
-            <Link to="/about">à propos</Link>
+            <Link to="/about">about</Link>
           </li>
           <li>
-            <Link to="/projects">projets</Link>
+            <Link to="/projects">projects</Link>
           </li>
           <li>
             <a href="mailto:morganegrvcontact@gmail.com">contact</a>

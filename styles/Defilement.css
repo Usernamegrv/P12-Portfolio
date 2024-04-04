@@ -10,6 +10,7 @@
   font-size: 2rem;
   white-space: nowrap;
   top: 0;
+  z-index: -1;
 }
 
 .text-defilement div span {

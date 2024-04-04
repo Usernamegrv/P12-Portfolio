@@ -10,7 +10,7 @@
   width: 89%;
   display: flex;
   align-items: center;
-  margin: 70px 0 90px 0;
+  margin: 0 0 90px 0;
 }
 #introduction .container-introduction figure {
   border-radius: 44px 113px 68px 121px;
@@ -28,15 +28,24 @@
   padding: 50px;
 }
 #introduction article h2 {
-  margin-bottom: 1em;
-  font-family: "Syne";
-  font-weight: 700;
-  font-size: 30px;
+  margin-bottom: 0;
+  position: absolute;
+  margin-top: 0;
+  top: -37px;
+  font-size: 50px;
+  font-family: fantasy;
+  color: rgba(128, 128, 128, 0.1098039216);
+}
+#introduction article span {
+  position: relative;
+  bottom: 65px;
+  left: 43px;
+  font-weight: 600;
+  font-size: 20px;
+  font-family: "Work Sans";
   color: #1f1f1f;
 }
 #introduction article p {
-  margin-bottom: 0.5em;
-  margin-right: 3.5em;
   color: #1f1f1f;
   text-align: justify;
   font-weight: 600;

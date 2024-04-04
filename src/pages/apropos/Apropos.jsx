@@ -1,7 +1,7 @@
 import Intro from "../../components/introduction/Intro.jsx";
 import Technos from "../../components/technos/Technos.jsx";
 import { useState, useEffect } from "react";
-import "./Apropos.scss";
+
 import Spinner from "../../components/spinner/Spinner.jsx";
 
 function Apropos() {
@@ -13,7 +13,7 @@ function Apropos() {
     }, 1000);
   }, []);
   return (
-    <div>
+    <>
       {isLoading && <Spinner />}
       {!isLoading && (
         <>
@@ -21,7 +21,7 @@ function Apropos() {
           <Technos />
         </>
       )}
-    </div>
+    </>
   );
 }
 

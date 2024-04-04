@@ -16,6 +16,7 @@ $color1-service-section: #43a8d2;
         font-family: "Syne";
         position: relative;
         color: #1f1f1f;
+        z-index: -1;
         &::after {
             content: "";
             position: absolute;
