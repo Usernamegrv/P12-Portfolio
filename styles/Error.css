@@ -9,8 +9,8 @@
   left: 50%;
   transform: translate(-50%, -50%);
   background-color: rgba(255, 255, 255, 0.32);
-  -webkit-backdrop-filter: blur(3px);
-  backdrop-filter: blur(3px);
+  -webkit-backdrop-filter: blur(4px);
+  backdrop-filter: blur(4px);
   text-align: center;
 }
 .error-container .error-title {
@@ -25,9 +25,4 @@
   cursor: pointer;
   color: blue;
   text-decoration: underline;
-}
-
-#header,
-#footer {
-  display: none;
 }/*# sourceMappingURL=Error.css.map */
