@@ -14,9 +14,10 @@
   text-align: center;
 }
 .error-container .error-title {
-  font-size: 50px;
-  font-family: "fantasy";
+  font-size: 90px;
+  font-family: "Lilita One", sans-serif;
   color: #1f1f1f;
+  margin-bottom: 10px;
 }
 .error-container .error-content {
   color: #1f1f1f;

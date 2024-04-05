@@ -1,3 +1,5 @@
+/* BODY */
+
 html {
   position: relative;
   min-height: 100vh;
@@ -14,6 +16,14 @@ body {
   background-position: center 60%;
   cursor: none;
 }
+
+@media screen and (max-width: 768px) {
+  body {
+    cursor: default;
+  }
+}
+
+/* MOUSE */
 
 .mouse {
   position: fixed;
@@ -38,4 +48,12 @@ body {
   width: 200px;
   background: rgb(46, 45, 45);
   transition: 0.2s ease-out;
+}
+
+@media screen and (max-width: 768px) {
+  #cursor,
+  #mouse1,
+  #mouse2 {
+    display: none;
+  }
 }

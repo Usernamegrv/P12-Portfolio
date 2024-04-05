@@ -15,9 +15,10 @@ $color_1: #1f1f1f;
     backdrop-filter: blur(4px);
     text-align: center;
     .error-title {
-        font-size: 50px;
-        font-family: "fantasy";
+        font-size: 90px;
+        font-family: "Lilita One", sans-serif;
         color: $color_1;
+        margin-bottom: 10px;
     }
     .error-content {
         color: $color_1;
