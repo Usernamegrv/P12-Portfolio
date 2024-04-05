@@ -15,7 +15,7 @@
 }
 .error-container .error-title {
   font-size: 50px;
-  font-family: fantasy;
+  font-family: "fantasy";
   color: #1f1f1f;
 }
 .error-container .error-content {

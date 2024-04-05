@@ -5,8 +5,8 @@ function Intro() {
     <section id="introduction">
       <div className="container-introduction">
         <article>
-          <h2>ABOUT ME</h2>
-          <span>ABOUT ME</span>
+          <h2 className="about-title">ABOUT ME</h2>
+          <span className="about-span">ABOUT ME</span>
           <p>
             Étudiante en développement web et mobile chez Openclassroom, je suis
             ici pour transformer vos idées en réalité numérique.

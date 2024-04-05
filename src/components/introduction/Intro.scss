@@ -18,20 +18,21 @@ $color_2: #1f1f1f;
             flex: 1;
             padding: 50px;
 
-            h2 {
+            .about-title {
                 margin-bottom: 0;
                 position: absolute;
                 margin-top: 0;
                 top: -40px;
                 font-size: 50px;
-                font-family: "fantasy";
+                font-family: "Lilita One", sans-serif;
                 color: #8080801c;
+                left: 80px;
             }
 
-            span {
+            .about-span {
                 position: relative;
                 bottom: 65px;
-                left: 43px;
+                left: 10px;
                 font-weight: 600;
                 font-size: 20px;
                 font-family: "Work Sans";

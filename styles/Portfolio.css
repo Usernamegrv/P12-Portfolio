@@ -14,15 +14,15 @@
 #portfolio .main-title {
   position: absolute;
   top: -2px;
-  left: 120px;
+  left: 60px;
   font-size: 50px;
-  font-family: fantasy;
+  font-family: "Lilita One", sans-serif;
   color: rgba(128, 128, 128, 0.1098039216);
 }
 #portfolio .main-span {
   position: absolute;
   top: 65px;
-  left: 165px;
+  left: 125px;
   font-weight: 600;
   font-size: 20px;
   font-family: "Work Sans";

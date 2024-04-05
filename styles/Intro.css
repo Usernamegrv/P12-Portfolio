@@ -16,19 +16,20 @@
   flex: 1;
   padding: 50px;
 }
-#introduction .container-introduction article h2 {
+#introduction .container-introduction article .about-title {
   margin-bottom: 0;
   position: absolute;
   margin-top: 0;
   top: -40px;
   font-size: 50px;
-  font-family: "fantasy";
+  font-family: "Lilita One", sans-serif;
   color: rgba(128, 128, 128, 0.1098039216);
+  left: 80px;
 }
-#introduction .container-introduction article span {
+#introduction .container-introduction article .about-span {
   position: relative;
   bottom: 65px;
-  left: 43px;
+  left: 10px;
   font-weight: 600;
   font-size: 20px;
   font-family: "Work Sans";
