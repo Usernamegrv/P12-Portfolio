@@ -11,12 +11,37 @@
   flex-direction: column;
   justify-content: space-between;
   position: absolute;
-  top: 9px;
-  left: -29px;
-  gap: 20px;
+  top: 5px;
+  left: -39px;
+  gap: 18px;
 }
 .container img {
   width: 25px;
+}
+.container .logo-javascript {
+  width: 43px;
+}
+.container .logo-react {
+  width: 24px;
+  left: 8px;
+  position: relative;
+}
+.container .logo-css {
+  width: 24px;
+  position: relative;
+  left: 8px;
+}
+.container .logo-sass {
+  width: 24px;
+  position: relative;
+  left: 8px;
+  bottom: 3px;
+}
+.container .logo-html {
+  width: 29px;
+  position: relative;
+  left: 5px;
+  bottom: 6px;
 }
 
 @keyframes load {
