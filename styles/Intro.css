@@ -29,10 +29,10 @@
 #introduction .container-introduction article .about-span {
   position: relative;
   bottom: 65px;
-  left: 10px;
+  left: 0px;
   font-weight: 600;
   font-size: 20px;
-  font-family: "Work Sans";
+  font-family: "Syne";
   color: #1f1f1f;
 }
 #introduction .container-introduction article p {

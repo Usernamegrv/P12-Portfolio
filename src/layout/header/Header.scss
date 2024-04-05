@@ -1,11 +1,14 @@
 $color_1: #1f1f1f;
 $color_2: #fff;
+$header_top: #fefefe;
+$header_bottom: #f3f8fb;
 
 .header {
     display: flex;
     justify-content: space-between;
     align-items: baseline;
     padding: 0 20px 0 20px;
+    // background: linear-gradient(to bottom, $header_top, $header_bottom);
     @media screen and (max-width: 1017px) {
         justify-content: center;
     }
@@ -119,6 +122,14 @@ $color_2: #fff;
         .github-link,
         .linkedin-link {
             display: none;
+        }
+        nav ul li a:hover {
+            color: $color_1;
+            font-weight: 600;
+        }
+        nav ul li a:hover::after {
+            background: $color_1;
+            font-weight: lighter;
         }
     }
 }

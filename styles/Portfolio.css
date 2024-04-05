@@ -14,7 +14,7 @@
 #portfolio .main-title {
   position: absolute;
   top: -2px;
-  left: 60px;
+  left: 65px;
   font-size: 50px;
   font-family: "Lilita One", sans-serif;
   color: rgba(128, 128, 128, 0.1098039216);
@@ -22,10 +22,10 @@
 #portfolio .main-span {
   position: absolute;
   top: 65px;
-  left: 125px;
+  left: 120px;
   font-weight: 600;
   font-size: 20px;
-  font-family: "Work Sans";
+  font-family: "Syne";
   color: #1f1f1f;
 }
 #portfolio #portfolio-title {
@@ -55,6 +55,7 @@
   background: #ffffff;
   width: 85%;
   border-radius: 20px;
+  box-shadow: 0 19px 38px rgba(0, 0, 0, 0.3), 0 15px 12px rgba(0, 0, 0, 0.2);
 }
 #portfolio #portfolio-container .row {
   width: 280px;

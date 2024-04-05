@@ -1,4 +1,4 @@
-$color1-service-section: #43a8d2;
+$color1-service-section: #96a0c3;
 
 .services-section {
     position: relative;
@@ -109,12 +109,12 @@ $color1-service-section: #43a8d2;
                         0 1px 5px 0 rgba(0, 0, 0, 0.12);
                 }
                 .front {
-                    background: rgb(0 0 0 / 11%);
-                    z-index: 2;
+                    background: rgb(255 255 255 / 41%);
+                    // z-index: 2;
                 }
                 .back {
                     background: $color1-service-section;
-                    z-index: 3;
+                    // z-index: 3;
                     transform: rotateY(180deg);
                 }
                 .front {

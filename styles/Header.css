@@ -113,6 +113,14 @@
   .header .linkedin-link {
     display: none;
   }
+  .header nav ul li a:hover {
+    color: #1f1f1f;
+    font-weight: 600;
+  }
+  .header nav ul li a:hover::after {
+    background: #1f1f1f;
+    font-weight: lighter;
+  }
 }
 
 @media screen and (max-width: 325px) {
