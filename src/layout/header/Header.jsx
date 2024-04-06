@@ -8,7 +8,8 @@ function Header() {
       <div className="mg">
         {!isHomePage && (
           <h1>
-            Morgane Gervois <br></br> <span>Développeuse Web & Mobile</span>
+            Morgane Gervois <br></br>
+            <span>Développeuse Web & Mobile</span>
           </h1>
         )}
       </div>

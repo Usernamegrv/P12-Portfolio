@@ -1,6 +1,6 @@
 $color_1: #1f1f1f;
 $color_2: #fff;
-$header_top: #fefefe;
+$header_top: #ffffff;
 $header_bottom: #f3f8fb;
 
 .header {
@@ -9,6 +9,7 @@ $header_bottom: #f3f8fb;
     align-items: baseline;
     padding: 0 20px 0 20px;
     // background: linear-gradient(to bottom, $header_top, $header_bottom);
+
     @media screen and (max-width: 1017px) {
         justify-content: center;
     }

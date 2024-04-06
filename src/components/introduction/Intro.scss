@@ -1,5 +1,8 @@
 $color_1: #fff;
 $color_2: #1f1f1f;
+$color-main-title: rgb(1 1 1 / 6%);
+$color-main-span: #1f1f1f;
+$background_container: rgb(239 239 239);
 
 #introduction {
     display: flex;
@@ -14,6 +17,7 @@ $color_2: #1f1f1f;
         display: flex;
         align-items: center;
         margin: 0 0 90px 0;
+
         article {
             flex: 1;
             padding: 50px;
@@ -25,7 +29,7 @@ $color_2: #1f1f1f;
                 top: -40px;
                 font-size: 50px;
                 font-family: "Lilita One", sans-serif;
-                color: #8080801c;
+                color: $color-main-title;
                 left: 80px;
             }
             .about-span {
@@ -35,7 +39,7 @@ $color_2: #1f1f1f;
                 font-weight: 600;
                 font-size: 20px;
                 font-family: "Syne";
-                color: $color_2;
+                color: $color-main-span;
             }
             p {
                 color: $color_2;
