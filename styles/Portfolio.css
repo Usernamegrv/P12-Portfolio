@@ -13,20 +13,26 @@
 }
 #portfolio .main-title {
   position: absolute;
-  top: -2px;
-  left: 65px;
+  top: 0;
+  left: 0;
   font-size: 50px;
   font-family: "Lilita One", sans-serif;
   color: rgba(1, 1, 1, 0.06);
+  display: flex;
+  justify-content: center;
+  width: 100%;
 }
 #portfolio .main-span {
   position: absolute;
   top: 65px;
-  left: 120px;
+  left: 0px;
   font-weight: 600;
   font-size: 20px;
   font-family: "Syne";
   color: #1f1f1f;
+  display: flex;
+  justify-content: center;
+  width: 100%;
 }
 #portfolio #portfolio-title {
   display: flex;
@@ -175,5 +181,10 @@
 @media screen and (max-width: 665px) {
   #portfolio #portfolio-container {
     grid-template-columns: 1fr;
+  }
+}
+@media screen and (max-width: 350px) {
+  #portfolio #portfolio-container {
+    padding: 90px 20px 80px 20px;
   }
 }/*# sourceMappingURL=Portfolio.css.map */

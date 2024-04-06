@@ -22,20 +22,26 @@ $background_container: rgb(239 239 239);
     position: relative;
     .main-title {
         position: absolute;
-        top: -2px;
-        left: 65px;
+        top: 0;
+        left: 0;
         font-size: 50px;
         font-family: "Lilita One", sans-serif;
         color: $color-main-title;
+        display: flex;
+        justify-content: center;
+        width: 100%;
     }
     .main-span {
         position: absolute;
         top: 65px;
-        left: 120px;
+        left: 0px;
         font-weight: 600;
         font-size: 20px;
         font-family: "Syne";
         color: $color-main-span;
+        display: flex;
+        justify-content: center;
+        width: 100%;
     }
     #portfolio-title {
         display: flex;
@@ -201,6 +207,11 @@ $background_container: rgb(239 239 239);
     @media screen and (max-width: 665px) {
         #portfolio-container {
             grid-template-columns: 1fr;
+        }
+    }
+    @media screen and (max-width: 350px) {
+        #portfolio-container {
+            padding: 90px 20px 80px 20px;
         }
     }
 }

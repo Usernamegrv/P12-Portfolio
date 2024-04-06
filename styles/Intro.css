@@ -24,12 +24,18 @@
   font-size: 50px;
   font-family: "Lilita One", sans-serif;
   color: rgba(1, 1, 1, 0.06);
-  left: 80px;
+  left: 0;
+  display: flex;
+  justify-content: center;
+  width: 100%;
 }
 #introduction .container-introduction article .about-span {
   position: relative;
   bottom: 65px;
-  left: 0px;
+  left: 0;
+  display: flex;
+  justify-content: center;
+  width: 100%;
   font-weight: 600;
   font-size: 20px;
   font-family: "Syne";
