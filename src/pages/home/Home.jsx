@@ -29,7 +29,6 @@ function Home() {
             <Defilement />
           </div>
           <Banner />
-
           <Services />
         </>
       )}

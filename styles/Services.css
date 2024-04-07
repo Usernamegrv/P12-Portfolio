@@ -25,13 +25,25 @@
   left: 0;
 }
 @media screen and (max-width: 785px) {
+  .services-section h2::after {
+    left: 41px;
+  }
+}
+@media screen and (max-width: 375px) {
+  .services-section h2::after {
+    left: 20px;
+  }
+}
+@media screen and (max-width: 785px) {
   .services-section h2 {
-    margin-left: 40px;
+    padding-left: 40px;
+    width: 90%;
   }
 }
 @media screen and (max-width: 375px) {
   .services-section h2 {
-    margin-left: 20px;
+    padding-left: 20px;
+    width: 200px;
   }
 }
 .services-section .cards-wrapper {

@@ -58,5 +58,8 @@ $background-color1: rgba(17, 17, 17);
                 }
             }
         }
+        @media screen and (max-width: 320px) {
+            display: none;
+        }
     }
 }

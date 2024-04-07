@@ -24,12 +24,20 @@ $color1-service-section: #96a0c3;
             width: 90px;
             bottom: 0;
             left: 0;
+            @media screen and (max-width: 785px) {
+                left: 41px;
+            }
+            @media screen and (max-width: 375px) {
+                left: 20px;
+            }
         }
         @media screen and (max-width: 785px) {
-            margin-left: 40px;
+            padding-left: 40px;
+            width: 90%;
         }
         @media screen and (max-width: 375px) {
-            margin-left: 20px;
+            padding-left: 20px;
+            width: 200px;
         }
     }
     .cards-wrapper {
