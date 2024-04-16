@@ -25,6 +25,9 @@ function Header() {
             <Link to="/projects">projects</Link>
           </li>
           <li>
+            <Link to="/tarifs">tarifs</Link>
+          </li>
+          <li>
             <a href="mailto:morganegrvcontact@gmail.com">contact</a>
           </li>
 

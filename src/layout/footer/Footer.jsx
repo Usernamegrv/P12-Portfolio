@@ -7,7 +7,7 @@ function Footer() {
         Morgane Gervois <span>Développeuse Web & Mobile</span>
       </h2>
 
-      <nav>
+      {/* <nav>
         <ul>
           <li>
             <a
@@ -36,7 +36,7 @@ function Footer() {
             </a>
           </li>
         </ul>
-      </nav>
+      </nav> */}
     </footer>
   );
 }
