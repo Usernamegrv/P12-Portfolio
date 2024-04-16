@@ -29,37 +29,22 @@ $background-color1: rgba(17, 17, 17);
             margin-left: 2px;
         }
     }
-    nav {
-        ul {
-            display: flex;
-            align-items: center;
-            list-style-type: none;
-            margin-right: 20px;
-            li {
-                padding: 0 10px;
-                font-size: 1.2em;
-                transition: ease-in-out 0.1s;
-                margin-right: 15px;
-                &:hover {
-                    border-bottom: 2px solid #bdc4f8;
-                    font-weight: 600;
-                    cursor: pointer;
-                    transition: ease-in-out 0.1s;
-                }
-                a {
-                    text-decoration: none;
-                    color: $color_1;
-                    cursor: pointer;
-
-                    img {
-                        width: 20px;
-                        height: 20px;
-                    }
-                }
-            }
+    p {
+        color: white;
+        font-family: "Work Sans";
+        letter-spacing: 0.1em;
+        font-size: 10px;
+        display: flex;
+        width: 60%;
+        justify-content: flex-end;
+        align-items: center;
+        padding-right: 25px;
+        .logo-react-footer {
+            width: 20px;
+            padding: 0 2px 0 2px;
         }
-        @media screen and (max-width: 320px) {
-            display: none;
+        .logo-vite-footer {
+            width: 20px;
         }
     }
 }

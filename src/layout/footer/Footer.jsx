@@ -7,36 +7,16 @@ function Footer() {
         Morgane Gervois <span>Développeuse Web & Mobile</span>
       </h2>
 
-      {/* <nav>
-        <ul>
-          <li>
-            <a
-              href="https://github.com/Usernamegrv"
-              rel="noopener"
-              target="_blank"
-            >
-              <img
-                src="./github-white.svg"
-                id="github-icone-white"
-                alt="Logo github"
-              />
-            </a>
-          </li>
-          <li>
-            <a
-              href="https://linkedin.com/in/morgane-gervois-a85ba820a "
-              rel="noopener"
-              target="_blank"
-            >
-              <img
-                src="./linkedin-white.svg"
-                id="linkedin-logo-white"
-                alt="Logo Linkedin"
-              />
-            </a>
-          </li>
-        </ul>
-      </nav> */}
+      <p>
+        Site made with
+        <img src="./react.png" alt="logo react" className="logo-react-footer" />
+        &
+        <img
+          src="./vitejs.png"
+          alt="logo vite.js"
+          className="logo-vite-footer"
+        />
+      </p>
     </footer>
   );
 }

@@ -124,6 +124,8 @@
 }
 .services-section .cards-wrapper .card-container .card .back {
   background: #96a0c3;
+  font-family: "Work Sans";
+  letter-spacing: 0.5px;
   transform: rotateY(180deg);
 }
 .services-section .cards-wrapper .card-container .card .front .cover {
@@ -167,7 +169,7 @@
   padding: 0;
   list-style: none;
   font-size: 12px;
-  padding: 10px;
+  padding: 20px;
 }
 .services-section .cards-wrapper .card-container .card .back ul li {
   margin: 20px 0;

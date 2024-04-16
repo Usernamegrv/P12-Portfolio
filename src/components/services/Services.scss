@@ -121,7 +121,8 @@ $color1-service-section: #96a0c3;
                 }
                 .back {
                     background: $color1-service-section;
-
+                    font-family: "Work Sans";
+                    letter-spacing: 0.5px;
                     transform: rotateY(180deg);
                 }
                 .front {
@@ -167,7 +168,7 @@ $color1-service-section: #96a0c3;
                         padding: 0;
                         list-style: none;
                         font-size: 12px;
-                        padding: 10px;
+                        padding: 20px;
 
                         li {
                             margin: 20px 0;

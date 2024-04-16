@@ -25,7 +25,7 @@ function Header() {
             <Link to="/projects">projects</Link>
           </li>
           <li>
-            <Link to="/tarifs">tarifs</Link>
+            <Link to="/prices">prices</Link>
           </li>
           <li>
             <a href="mailto:morganegrvcontact@gmail.com">contact</a>

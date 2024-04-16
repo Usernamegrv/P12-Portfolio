@@ -25,35 +25,21 @@
   letter-spacing: 0.5em;
   margin-left: 2px;
 }
-.footer nav ul {
+.footer p {
+  color: white;
+  font-family: "Work Sans";
+  letter-spacing: 0.1em;
+  font-size: 10px;
   display: flex;
+  width: 60%;
+  justify-content: flex-end;
   align-items: center;
-  list-style-type: none;
-  margin-right: 20px;
+  padding-right: 25px;
 }
-.footer nav ul li {
-  padding: 0 10px;
-  font-size: 1.2em;
-  transition: ease-in-out 0.1s;
-  margin-right: 15px;
-}
-.footer nav ul li:hover {
-  border-bottom: 2px solid #bdc4f8;
-  font-weight: 600;
-  cursor: pointer;
-  transition: ease-in-out 0.1s;
-}
-.footer nav ul li a {
-  text-decoration: none;
-  color: #ffffff;
-  cursor: pointer;
-}
-.footer nav ul li a img {
+.footer p .logo-react-footer {
   width: 20px;
-  height: 20px;
+  padding: 0 2px 0 2px;
 }
-@media screen and (max-width: 320px) {
-  .footer nav {
-    display: none;
-  }
+.footer p .logo-vite-footer {
+  width: 20px;
 }/*# sourceMappingURL=Footer.css.map */

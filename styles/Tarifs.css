@@ -1,0 +1,140 @@
+.table-section {
+  background: #e7e7e7;
+  gap: 10px;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  width: 100%;
+}
+.table-section #prices {
+  max-width: 1200px;
+  margin: 80px 0 50px 0;
+  width: 100%;
+  font-family: "Work Sans";
+}
+.table-section #prices tr {
+  display: flex;
+  gap: 10px;
+}
+@media screen and (max-width: 879px) {
+  .table-section #prices tr {
+    flex-direction: column;
+  }
+}
+.table-section #prices tr .pricing-table {
+  margin: auto auto 20px auto;
+  position: relative;
+  min-height: 340px;
+  padding-bottom: 55px;
+  text-align: center;
+  background: white;
+  border-radius: 6px;
+  width: 33%;
+  vertical-align: top;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+@media screen and (max-width: 879px) {
+  .table-section #prices tr .pricing-table {
+    width: 100%;
+  }
+}
+.table-section #prices tr .pricing-table h2 {
+  display: block;
+  margin-bottom: 0px;
+  padding: 10px;
+  font-size: 1.4em;
+  background: #009342;
+  font-weight: 800;
+  text-transform: uppercase;
+  border-radius: 5px 5px 0 0;
+  color: white;
+  margin-top: 0;
+}
+.table-section #prices tr .pricing-table h3 {
+  display: block;
+  margin: 0;
+  padding: 0 0 10px;
+  font-size: 0.9em;
+  color: white;
+}
+.table-section #prices tr .pricing-table h4 {
+  display: block;
+  margin: 0;
+  width: 100%;
+  padding: 20px;
+  background: #30b643;
+  font-size: 1.75em;
+  box-sizing: border-box;
+  color: white;
+}
+.table-section #prices tr .pricing-table h5 {
+  display: block;
+  margin: 0 0 15px 0;
+  font-weight: 200;
+  padding: 10px;
+  background: #44d354;
+  color: white;
+}
+.table-section #prices tr .pricing-table p {
+  margin: 10px auto;
+  padding: 5px 0 5px;
+  width: 80%;
+  font-weight: 300;
+  border-top: 1px solid rgba(0, 0, 0, 0.1);
+}
+.table-section #prices tr .pricing-table h5 + p {
+  border-top: 1px solid rgba(0, 0, 0, 0);
+}
+.table-section #prices tr .popular {
+  margin-top: -10px;
+  min-height: 400px;
+}
+.table-section #prices tr .popular h2 {
+  font-size: 1.8em;
+  background: #ff9138;
+}
+.table-section #prices tr .popular h3 {
+  background: #ff9138;
+  font-weight: 100;
+}
+.table-section #prices tr .popular h4 {
+  background: #feb63d;
+}
+.table-section #prices tr .popular h5 {
+  background: #f7cd6f;
+  font-weight: 200;
+}
+.table-section #prices tr .premium h2 {
+  background: #018fff;
+  display: block;
+  margin-bottom: 0px;
+  padding: 10px;
+  font-size: 1.4em;
+  font-weight: 800;
+  text-transform: uppercase;
+  border-radius: 5px 5px 0 0;
+  color: white;
+}
+.table-section #prices tr .premium h3 {
+  background: #018fff;
+}
+.table-section #prices tr .premium h4 {
+  background: #39b5ff;
+}
+.table-section #prices tr .premium h5 {
+  background: #65cafc;
+  font-weight: 200;
+}
+
+@media screen and (max-width: 700px) {
+  #prices td {
+    display: block !important;
+    width: 100% !important;
+  }
+  .pricing-table {
+    min-height: 0;
+  }
+  .popular .pricing-table {
+    margin-top: 0px;
+  }
+}/*# sourceMappingURL=Tarifs.css.map */
