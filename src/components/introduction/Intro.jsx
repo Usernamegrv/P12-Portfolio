@@ -8,21 +8,22 @@ function Intro() {
           <h2 className="about-title">ABOUT ME</h2>
           <span className="about-span">ABOUT ME</span>
           <p>
-            Étudiante en développement web et mobile chez Openclassroom, je suis
-            ici pour transformer vos idées en réalité numérique.
+            Fortement investie dans le développement web et mobile, j&apos;ai
+            acquis mes compétences avec Openclassroom. <br />
+            Que vous recherchiez un site web élégant ou une application mobile
+            innovante pour connecter votre audience, je suis préte à relever le
+            défi. <br />
           </p>
           <p>
-            Que vous ayez besoin d&apos;un site web élégant ou d&apos;une
-            application mobile innovante pour connecter votre audience, je suis
-            prête à relever le défi. <br />
             Mon objectif est de fournir des solutions de développement sur
-            mesure, alliant esthétique et fonctionnalité. Chaque projet est une
-            opportunité pour moi d&apos;explorer de nouvelles technologies et
-            d&apos;affiner mes compétences.
+            mesure, alliant esthétique et fonctionnalité pour répondre aux
+            besoins uniques de votre projet. <br />
+            Chaque collaboration est une opportunité pour moi d&apos;explorer de
+            nouvelles technologies et de perfectionner mes compétences.
           </p>
           <p>
             Explorez mon portfolio pour découvrir quelques-uns de mes projets
-            antérieurs et n&apos;hésitez pas à me contacter pour discuter de la
+            antérieurs, et n&apos;hésitez pas à me contacter pour discuter de la
             façon dont nous pouvons concrétiser votre vision numérique ensemble.
           </p>
         </article>
