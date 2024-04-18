@@ -3,11 +3,15 @@
   justify-content: space-between;
   align-items: baseline;
   padding: 0 20px 0 20px;
+  background: #1f1f1f;
 }
 @media screen and (max-width: 1017px) {
   .header {
     justify-content: center;
   }
+}
+.header .mg {
+  margin-bottom: 10px;
 }
 .header .mg h1 {
   display: flex;
@@ -15,7 +19,7 @@
   font-family: "Syne";
   font-size: 22px;
   font-weight: 800;
-  color: #1f1f1f;
+  color: #fff;
   margin: 0 40px;
 }
 .header .mg h1 span {
@@ -35,6 +39,8 @@
   display: table;
   width: 500px;
   text-align: center;
+  margin-top: 0;
+  margin-bottom: 0;
 }
 @media screen and (max-width: 605px) {
   .header nav ul {
@@ -47,7 +53,7 @@
   padding: 10px 0;
 }
 .header nav ul li a {
-  color: #1f1f1f;
+  color: #fff;
   text-decoration: none;
   cursor: pointer;
   text-transform: uppercase;
@@ -60,7 +66,7 @@
 .header nav ul li a:hover {
   z-index: 1000;
   position: relative;
-  color: #ffffff;
+  font-weight: 800;
 }
 .header nav ul li a:after {
   background: none repeat scroll 0 0 transparent;
@@ -82,46 +88,6 @@
   width: 20px;
   height: 20px;
   position: relative;
-  transition: 0.7s ease-in-out;
-}
-.header nav ul li a img#github-icone-black {
-  top: 20px;
-  display: flex;
-}
-.header nav ul li a img#linkedin-logo-black {
-  top: 20px;
-  display: flex;
-}
-.header nav ul li a img#linkedin-logo-black:hover {
-  opacity: 0;
-}
-.header nav ul li a img#github-icone-white {
-  opacity: 0;
-}
-.header nav ul li a img#github-icone-white:hover {
-  opacity: 1;
-  transition: 2ms ease-in-out;
-}
-.header nav ul li a img#linkedin-logo-white {
-  opacity: 0;
-}
-.header nav ul li a img#linkedin-logo-white:hover {
-  opacity: 1;
-  transition: 2ms ease-in-out;
-}
-@media screen and (max-width: 1017px) {
-  .header .github-link,
-  .header .linkedin-link {
-    display: none;
-  }
-  .header nav ul li a:hover {
-    color: #1f1f1f;
-    font-weight: 600;
-  }
-  .header nav ul li a:hover::after {
-    background: #1f1f1f;
-    font-weight: lighter;
-  }
 }
 
 @media screen and (max-width: 325px) {

@@ -12,17 +12,17 @@ body {
   font-family: "Work Sans";
   font-size: 14px;
   background: white;
-  cursor: none;
+  /* cursor: none; */
 }
 
-@media screen and (max-width: 1017px) {
+/* @media screen and (max-width: 1017px) {
   body {
     cursor: default;
   }
-}
+} */
 
 /* MOUSE */
-
+/* 
 .mouse {
   position: fixed;
   border-radius: 1500px;
@@ -54,4 +54,4 @@ body {
   #mouse2 {
     display: none;
   }
-}
+} */

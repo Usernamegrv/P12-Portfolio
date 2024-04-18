@@ -8,20 +8,20 @@ $header_bottom: #f3f8fb;
     justify-content: space-between;
     align-items: baseline;
     padding: 0 20px 0 20px;
-    // background: linear-gradient(to bottom, $header_top, $header_bottom);
-
+    background: $color_1;
     @media screen and (max-width: 1017px) {
         justify-content: center;
     }
 
     .mg {
+        margin-bottom: 10px;
         h1 {
             display: flex;
             flex-direction: column;
             font-family: "Syne";
             font-size: 22px;
             font-weight: 800;
-            color: $color_1;
+            color: $color_2;
             margin: 0 40px;
 
             span {
@@ -42,6 +42,8 @@ $header_bottom: #f3f8fb;
             display: table;
             width: 500px;
             text-align: center;
+            margin-top: 0;
+            margin-bottom: 0;
             @media screen and (max-width: 605px) {
                 width: 100%;
             }
@@ -50,7 +52,7 @@ $header_bottom: #f3f8fb;
                 position: relative;
                 padding: 10px 0;
                 a {
-                    color: $color_1;
+                    color: $color_2;
                     text-decoration: none;
                     cursor: pointer;
                     text-transform: uppercase;
@@ -63,7 +65,7 @@ $header_bottom: #f3f8fb;
                     &:hover {
                         z-index: 1000;
                         position: relative;
-                        color: #ffffff;
+                        font-weight: 800;
                     }
                     &:after {
                         background: none repeat scroll 0 0 transparent;
@@ -73,7 +75,7 @@ $header_bottom: #f3f8fb;
                         height: 2px;
                         left: 50%;
                         position: absolute;
-                        background: #fff;
+                        background: $color_2;
                         transition:
                             width 0.3s ease 0s,
                             left 0.3s ease 0s;
@@ -89,49 +91,9 @@ $header_bottom: #f3f8fb;
                         width: 20px;
                         height: 20px;
                         position: relative;
-                        transition: 0.7s ease-in-out;
-                    }
-                    img#github-icone-black {
-                        top: 20px;
-                        display: flex;
-                    }
-                    img#linkedin-logo-black {
-                        top: 20px;
-                        display: flex;
-                        &:hover {
-                            opacity: 0;
-                        }
-                    }
-                    img#github-icone-white {
-                        opacity: 0;
-                        &:hover {
-                            opacity: 1;
-                            transition: 2ms ease-in-out;
-                        }
-                    }
-                    img#linkedin-logo-white {
-                        opacity: 0;
-                        &:hover {
-                            opacity: 1;
-                            transition: 2ms ease-in-out;
-                        }
                     }
                 }
             }
-        }
-    }
-    @media screen and (max-width: 1017px) {
-        .github-link,
-        .linkedin-link {
-            display: none;
-        }
-        nav ul li a:hover {
-            color: $color_1;
-            font-weight: 600;
-        }
-        nav ul li a:hover::after {
-            background: $color_1;
-            font-weight: lighter;
         }
     }
 }

@@ -1,10 +1,10 @@
 $color_1: #ffffff;
-$background-color1: rgba(17, 17, 17);
+$color_2: #1f1f1f;
 
 .footer {
     display: flex;
     justify-content: space-between;
-    background: $background-color1;
+    background: $color_2;
     align-items: center;
     position: absolute;
     bottom: 0;
@@ -12,21 +12,23 @@ $background-color1: rgba(17, 17, 17);
     height: auto;
     z-index: -1;
     margin-top: 50px;
+    padding: 10px 20pc 5px 20px;
 
-    h2 {
-        display: flex;
-        flex-direction: column;
-        font-family: "Syne";
-        font-size: 22px;
-        font-weight: 800;
-        color: $color_1;
-        margin-left: 15px;
-
-        span {
-            font-family: "Work Sans";
-            font-size: 10px;
-            letter-spacing: 0.5em;
-            margin-left: 2px;
+    .mg {
+        h2 {
+            display: flex;
+            flex-direction: column;
+            font-family: "Syne";
+            font-size: 22px;
+            font-weight: 800;
+            color: $color_1;
+            margin: 0 40px;
+            span {
+                font-family: "Work Sans";
+                font-size: 10px;
+                letter-spacing: 0.3em;
+                margin-left: 2px;
+            }
         }
     }
     p {
@@ -35,16 +37,16 @@ $background-color1: rgba(17, 17, 17);
         letter-spacing: 0.1em;
         font-size: 10px;
         display: flex;
-        width: 60%;
         justify-content: flex-end;
         align-items: center;
-        padding-right: 25px;
+        padding-right: 35px;
         .logo-react-footer {
             width: 20px;
-            padding: 0 2px 0 2px;
+            padding: 0 5px 0 5px;
         }
         .logo-vite-footer {
             width: 20px;
+            padding: 0 5px 0 5px;
         }
     }
 }

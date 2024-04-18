@@ -8,7 +8,7 @@ function Header() {
       <div className="mg">
         {!isHomePage && (
           <h1>
-            Morgane Gervois <br></br>
+            Morgane Gervois <br />
             <span>Développeuse Web & Mobile</span>
           </h1>
         )}
@@ -39,11 +39,6 @@ function Header() {
               className="github-link"
             >
               <img
-                src="./github-black.svg"
-                id="github-icone-black"
-                alt="Logo github"
-              />
-              <img
                 src="./github-white.svg"
                 id="github-icone-white"
                 alt="Logo github"
@@ -57,11 +52,6 @@ function Header() {
               target="_blank"
               className="linkedin-link"
             >
-              <img
-                src="./linkedin-black.svg"
-                id="linkedin-logo-black"
-                alt="Logo Linkedin"
-              />
               <img
                 src="./linkedin-white.svg"
                 id="linkedin-logo-white"

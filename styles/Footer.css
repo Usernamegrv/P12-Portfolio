@@ -1,7 +1,7 @@
 .footer {
   display: flex;
   justify-content: space-between;
-  background: rgb(17, 17, 17);
+  background: #1f1f1f;
   align-items: center;
   position: absolute;
   bottom: 0;
@@ -9,20 +9,21 @@
   height: auto;
   z-index: -1;
   margin-top: 50px;
+  padding: 10px 20pc 5px 20px;
 }
-.footer h2 {
+.footer .mg h2 {
   display: flex;
   flex-direction: column;
   font-family: "Syne";
   font-size: 22px;
   font-weight: 800;
   color: #ffffff;
-  margin-left: 15px;
+  margin: 0 40px;
 }
-.footer h2 span {
+.footer .mg h2 span {
   font-family: "Work Sans";
   font-size: 10px;
-  letter-spacing: 0.5em;
+  letter-spacing: 0.3em;
   margin-left: 2px;
 }
 .footer p {
@@ -31,15 +32,15 @@
   letter-spacing: 0.1em;
   font-size: 10px;
   display: flex;
-  width: 60%;
   justify-content: flex-end;
   align-items: center;
-  padding-right: 25px;
+  padding-right: 35px;
 }
 .footer p .logo-react-footer {
   width: 20px;
-  padding: 0 2px 0 2px;
+  padding: 0 5px 0 5px;
 }
 .footer p .logo-vite-footer {
   width: 20px;
+  padding: 0 5px 0 5px;
 }/*# sourceMappingURL=Footer.css.map */

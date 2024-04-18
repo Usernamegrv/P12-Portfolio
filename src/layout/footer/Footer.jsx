@@ -3,9 +3,12 @@ import "./Footer.scss";
 function Footer() {
   return (
     <footer className="footer" id="footer">
-      <h2>
-        Morgane Gervois <span>Développeuse Web & Mobile</span>
-      </h2>
+      <div className="mg">
+        <h2>
+          Morgane Gervois <br />
+          <span>Développeuse Web & Mobile</span>
+        </h2>
+      </div>
 
       <p>
         Site made with
