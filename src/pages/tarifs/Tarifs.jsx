@@ -8,7 +8,7 @@ function Tarifs() {
           <tr>
             <td className="pricing-table">
               <h2>pack visibilité</h2>
-              <h4>€399.99 HT</h4>
+              <h4>€499.99 HT</h4>
               <h5>Site vitrine ( 1 page )</h5>
               <p className="feature-list">
                 Conception responsive pour une expérience utilisateur optimale
