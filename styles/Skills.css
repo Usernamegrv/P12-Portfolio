@@ -23,6 +23,11 @@
   left: 8px;
   position: relative;
 }
+.container .logo-wordpress {
+  width: 30px;
+  left: 5px;
+  position: relative;
+}
 .container .logo-css {
   width: 24px;
   position: relative;
