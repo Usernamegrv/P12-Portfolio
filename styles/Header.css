@@ -45,6 +45,9 @@
 @media screen and (max-width: 605px) {
   .header nav ul {
     width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
   }
 }
 .header nav ul li {
@@ -88,32 +91,4 @@
   width: 20px;
   height: 20px;
   position: relative;
-}
-
-@media screen and (max-width: 325px) {
-  .header {
-    display: flex;
-    flex-direction: column;
-  }
-  .header .mg h1 {
-    display: none;
-  }
-  .header nav {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-  }
-  .header nav ul {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    width: 90%;
-    justify-content: center;
-  }
-  .header nav li {
-    padding: 0;
-  }
-  .header nav a {
-    padding: 10px 20px;
-  }
 }/*# sourceMappingURL=Header.css.map */
