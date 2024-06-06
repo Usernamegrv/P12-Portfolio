@@ -16,19 +16,19 @@ function Header() {
       <nav>
         <ul>
           <li>
-            <Link to="/">home</Link>
+            <Link to="/">accueil</Link>
           </li>
           <li>
-            <Link to="/about">about</Link>
+            <Link to="/about">à propos</Link>
           </li>
           <li>
-            <Link to="/projects">projects</Link>
+            <Link to="/projects">portfolio</Link>
           </li>
-          <li>
+          {/* <li>
             <Link to="/prices">prices</Link>
-          </li>
+          </li> */}
           <li>
-            <a href="mailto:morganegrvcontact@gmail.com">contact</a>
+            <a href="mailto:gervois.contactpro@gmail.com">contact</a>
           </li>
 
           <li>

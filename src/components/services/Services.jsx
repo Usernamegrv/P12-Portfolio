@@ -44,8 +44,9 @@ function Services() {
 
   const servicesData = [
     {
-      title: "Optimisation de site web",
-      description: "Améliorez les performances de votre site web.",
+      title: "Optimisation SEO",
+      description:
+        "Améliorez votre positionnement grâce au référencement naturel.",
       image: "./seoo.svg",
       details: [
         "🔍 Analyse et optimisation SEO",

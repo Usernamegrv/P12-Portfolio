@@ -21,6 +21,7 @@
         width: 24px;
         left: 8px;
         position: relative;
+        top: -2px;
     }
     .logo-wordpress {
         width: 30px;
@@ -31,18 +32,19 @@
         width: 24px;
         position: relative;
         left: 8px;
+        top: -2px;
     }
     .logo-sass {
         width: 24px;
         position: relative;
         left: 8px;
-        bottom: 3px;
+        bottom: 6px;
     }
     .logo-html {
         width: 29px;
         position: relative;
         left: 5px;
-        bottom: 6px;
+        bottom: 9px;
     }
 }
 @keyframes load {

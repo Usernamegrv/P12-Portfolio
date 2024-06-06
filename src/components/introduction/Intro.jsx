@@ -9,10 +9,10 @@ function Intro() {
           <span className="about-span">ABOUT ME</span>
           <p>
             Fortement investie dans le développement web et mobile, j&apos;ai
-            acquis mes compétences avec Openclassroom. <br />
-            Que vous recherchiez un site web élégant ou une application mobile
-            innovante pour connecter votre audience, je suis préte à relever le
-            défi. <br />
+            acquis mes compétences grâce à OpenClassrooms. <br />
+            Que vous recherchiez un site web élégant, une application mobile
+            innovante pour connecter votre audience ou un collaborateur, je suis
+            prête à relever le défi. <br />
           </p>
           <p>
             Mon objectif est de fournir des solutions de développement sur

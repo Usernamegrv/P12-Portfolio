@@ -49,4 +49,7 @@ $color_2: #1f1f1f;
             padding: 0 5px 0 5px;
         }
     }
+    @media screen and (max-width: 500px) {
+        display: none;
+    }
 }

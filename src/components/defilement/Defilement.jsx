@@ -4,12 +4,12 @@ function Defilement() {
   return (
     <>
       <div
-        data-text="🚀 Créez une présence en ligne unique, avec un site conçu sur mesure
-              pour répondre à vos besoins "
+        data-text="🚀 Création sur mesure | Site vitrine | Blog | E-commerce | SEO |
+          Optimisation | Refonte | Maintenance |"
       >
         <span>
-          🚀 Créez une présence en ligne unique, avec un site conçu sur mesure
-          pour répondre à vos besoins
+          🚀 Création sur mesure | Site vitrine | Blog | E-commerce | SEO |
+          Optimisation | Refonte | Maintenance |
         </span>
       </div>
     </>

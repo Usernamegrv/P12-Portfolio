@@ -43,4 +43,9 @@
 .footer p .logo-vite-footer {
   width: 20px;
   padding: 0 5px 0 5px;
+}
+@media screen and (max-width: 500px) {
+  .footer {
+    display: none;
+  }
 }/*# sourceMappingURL=Footer.css.map */
