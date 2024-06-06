@@ -7,6 +7,7 @@ function Intro() {
         <article>
           <h2 className="about-title">ABOUT ME</h2>
           <span className="about-span">ABOUT ME</span>
+
           <p>
             Fortement investie dans le développement web et mobile, j&apos;ai
             acquis mes compétences grâce à OpenClassrooms. <br />
